@@ -1,0 +1,771 @@
+{
+    "product" : [
+        {
+            "id": 1,
+            "name": "Áo khoác gió nam YODY",
+            "price":"$11.03",
+            "quality":4.0,
+            "status": "còn hàng",
+            "sold":290,
+            "sale": "mua 2 giảm $0.8",
+            "avatar" : "../public/image/aoYody.jpg",
+            "shirt" : {
+                "id" : 1,
+                "color" :[ 
+                    {
+                        "id" : 1,
+                        "color" : "nâu",
+                        "image" : "../public/image/aoYodybrown.jpg"
+                    },
+                    {
+                        "id" : 2,
+                        "color" : "trắng",
+                        "image" : "../public/image/aoYodywhite.jpg"
+                    },
+                    {
+                        "id" : 3,
+                        "color" : "vàng",
+                        "image" : "../public/image/aoYodyyellow.jpg"
+                    }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 2,
+            "name": "Áo thun Unisex Nam Nữ TEEZ",
+            "price":"$2.79",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":120,
+            "sale": "Tặng tất cotton cao cấp",
+            "avatar" : "../public/image/aothunUnisex.jpg",
+            "shirt" : {
+                "id" : 2,
+                "color" :[ 
+                    {
+                        "id" : 1,
+                        "color" : "đen",
+                        "image" : "../public/image/aoUnisexblack.jpg"
+                    },
+                    {
+                        "id" : 2,
+                        "color" : "trắng",
+                        "image" : "../public/image/aoUnisexwhite.jpg"
+                    },
+                    {
+                        "id" : 3,
+                        "color" : "xanh lá cây",
+                        "image" : "../public/image/aoUnisexgreen.jpg"
+                    }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 3,
+            "name": "Áo Phông Unisex CAPMAN basic",
+            "price":"$3.89",
+            "quality":4.8,
+            "status": "còn hàng",
+            "sold":150,
+            "sale": "mua 2 giảm $0.3",
+            "avatar" : "../public/image/aophong.jpg",
+            "shirt" : {
+                "id" : 3,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "đen",
+                    "image" : "../public/image/aophongden.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "nâu",
+                    "image" : "../public/image/aophongnau.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "trắng",
+                    "image" : "../public/image/aophongtrang.jpg"
+                }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4,
+            "name": "Áo Polo Seery Nam Nữ",
+            "price":"$4.02",
+            "quality":4.6,
+            "status": "còn hàng",
+            "sold":229,
+            "sale": "mua 2 giảm $1.25đ",
+            "avatar" : "../public/image/aopolo.jpg",
+            "shirt" : {
+                "id" : 4,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "đen",
+                    "image" : "../public/image/aopoloden.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "trắng",
+                    "image" : "../public/image/aopolotrang.jpg"
+                }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"$20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 6,
+            "name": "Áo trễ vai bèo tay phồng AQT",
+            "price":"$1.35",
+            "quality":4.7,
+            "status": "còn hàng",
+            "sold":570,
+            "sale": "giảm 20%",
+            "avatar" : "../public/image/aonu.jpg",
+            "shirt" : {
+                "id" : 6,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/aonuWhite.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "hồng",
+                    "image" : "../public/image/aonuPink.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "xanh lá cây",
+                    "image" : "../public/image/aonuGreen.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7,
+            "name": "Quần KAKI ống rộng",
+            "price":"$2.65",
+            "quality":4.6,
+            "status": "còn hàng",
+            "sold":620,
+            "sale": "giảm 30%",
+            "avatar" : "../public/image/quannam.jpg",
+            "pant" : {
+                "id" : 7,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/quannamBe.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/quannamden.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8,
+            "name": "Quần Short thun nam nữ Hm1986",
+            "price":"$2.39",
+            "quality":4.6,
+            "status": "còn hàng",
+            "sold":110,
+            "sale": "giảm 10%",
+            "avatar" : "../public/image/quanshort.jpg",
+            "pant" : {
+                "id" : 8,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xám",
+                    "image" : "../public/image/quanshortxam.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/quanshortden.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 9,
+            "name": "Quần ống rộng nữ",
+            "price":"$3.05",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":230,
+            "sale": "giảm 15%",
+            "avatar" : "../public/image/quannu.jpg",
+            "pant" : {
+                "id" : 9,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/quannutrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/quannuden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "tím",
+                    "image" : "../public/image/quannutim.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 10,
+            "name": "Chân váy thời trang cho Nữ",
+            "price":"$4.03",
+            "quality":4.7,
+            "status": "còn hàng",
+            "sold":330,
+            "sale": "giảm 12%",
+            "avatar" : "../public/image/chanvay.jpg",
+            "skirt" : {
+                "id" : 10,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/chanvaytrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/chanvayden.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 11,
+            "name": "Giày Jordan Cổ Thấp Nam Nữ",
+            "price":"$9.23",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":390,
+            "sale": "giảm 15%",
+            "avatar" : "../public/image/giayjd.jpg",
+            "shoes" : {
+                "id" : 11,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xám",
+                    "image" : "../public/image/giayjdxam.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/giayjdden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/giayjdxanh.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 12,
+            "name": "Giày Sneakers basic cho Nữ",
+            "price":"$9.35",
+            "quality":4.8,
+            "status": "còn hàng",
+            "sold":450,
+            "sale": "giảm 25%",
+            "avatar" : "../public/image/giaynu.jpg",
+            "shoes" : {
+                "id" : 12,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/giaynutrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/giaynuden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/giayjdxanh.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 13,
+            "name": "Giày Jordan Cổ Thấp Nam Nữ",
+            "price":"$9.75",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":390,
+            "sale": "giảm 15%",
+            "avatar" : "../public/image/giayjd.jpg",
+            "shoes" : {
+                "id" : 13,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xám",
+                    "image" : "../public/image/giayjdxam.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/giayjdden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/giayjdxanh.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 14,
+            "name": "Giày thể thao nữ kẻ caro Wosa",
+            "price":"$10",
+            "quality":4.8,
+            "status": "còn hàng",
+            "sold":390,
+            "sale": "giảm 20%",
+            "avatar" : "../public/image/giaycaro.jpg",
+            "shoes" : {
+                "id" : 14,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/giaycarotrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/giaycaroden.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 15,
+            "name": "Giày thể thao Nam Nữ gucci",
+            "price":"$11.02",
+            "quality":4.8,
+            "status": "hết hàng",
+            "sold":490,
+            "sale": "giảm 25%",
+            "avatar" : "../public/image/giaygucci.jpg",
+            "shoes" : {
+                "id" : 15,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trơn",
+                    "image" : "../public/image/giayguccitron.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "NY",
+                    "image" : "../public/image/giayNY.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "Chữ",
+                    "image" : "../public/image/giayguccido.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "Môi",
+                    "image" : "../public/image/giayguccimoi.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 16,
+            "name": "Mũ lưỡi trai thêu chữ P",
+            "price":"$2.69",
+            "quality":4.9,
+            "status": "hết hàng",
+            "sold":60,
+            "sale": "giảm 10%",
+            "avatar" : "../public/image/mubasic.jpg",
+            "hat" : {
+                "id" : 16,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "../public/image/mubasictrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/muden.jpg"
+                }
+                ],
+                "size": "oversize"
+            }
+        },
+        {
+            "id": 17,
+            "name": "Mũ lưỡi trai thêu logo NY",
+            "price":"$2.41",
+            "quality":4.7,
+            "status": "còn hàng",
+            "sold":120,
+            "sale": "giảm 5%",
+            "avatar" : "../public/image/muNY.jpg",
+            "hat" : {
+                "id" : 17,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "trắng",
+                    "image" : "../public/image/muNYtrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "đen",
+                    "image" : "../public/image/muNYden.jpg"
+                }
+                ],
+                "size": "oversize"
+            }
+        }
+    ]
+}

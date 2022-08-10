@@ -1,0 +1,22 @@
+body{
+    margin: unset;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: unset;
+    padding: unset;
+}
+@font-face {
+    font-family: Product Sans;
+    src: url(./font-size/Product\ Sans\ Regular.ttf);
+}
+*{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: unset;
+    padding: unset;
+}

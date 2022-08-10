@@ -1,0 +1,239 @@
+:root{
+    --shadow-header: 0px 0px 16px 0px rgb(0 0 0 / 10%);
+    --text-color: #252525;
+    --text-placeholder: #898b8d;
+    --back-color:#f7941d;
+    --hover-color: #f7941d;
+}
+
+.b-color{
+    border: 2px solid;
+    border-color: rgb(247 148 29);
+}
+
+/* Animations */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes rotateXIn{
+    from{
+        opacity: 0;
+        transform: perspective(600px) rotateX(-90deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0deg);
+    }
+}
+
+
+/* header logo */
+.header .logo{
+    text-align: center;
+}
+.header-main .logo img{
+    width: 100px;
+}
+
+/* header seacrh */
+.search-form{
+    width: fit-content;
+}
+.header-main .search input[name="query"]{
+    border-radius: 5px;
+    padding: 10px 15px;
+    outline: unset;
+    width: 390px;
+    font-size: 13px;
+}
+.header-main .search input[name="query"]::placeholder{
+    font-size: 0.75rem;
+    font-family: sans-serif;
+    color: var(--text-placeholder);
+}
+.btn-search{
+    width: 50px;
+    height: 50px;
+    background-color: var(--back-color);
+    position: relative;
+    cursor: pointer;
+}
+.btn-search i{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+/* header account */
+.account a{
+    text-decoration: none;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+.line_{
+    margin: 0px 10px;
+    color: #c2c2c2;
+    font-size: 14px;
+    font-weight: bold;
+}
+.account-hover:hover a{
+    color: var(--hover-color);
+    transition: all .2s linear;
+
+}
+.cart i{
+    font-size: 1.375rem;
+    color: var(--back-color);
+}
+.cart-quantity{
+    background-color: #000084;
+    color: #fff;
+    width: 23px;
+    height: 23px;
+    left: 33px !important;
+    top: 2px !important;
+}
+.cart-quantity span{
+    font-size: 0.813rem;
+}
+
+/* header containers */
+.category-icon{
+    padding: 12px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: var(--back-color);
+    color: #fff;
+    width: 265px;
+    max-width: 265px;
+    cursor: pointer;
+}
+.category-prd{
+    width: 100%;
+}
+.category-icon span{
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+.category-prd ul{
+    box-shadow: 0px 0px 4px 0px #ccc;
+}
+.category-prd_item{
+    cursor: pointer;
+    padding-left: 22px;
+}
+.category-prd_item i{
+    color: #f9a332;
+}
+.category-prd_item span{
+    font-size: 0.875rem;
+}
+.category-prd_item:hover{
+    background-color: #f9a332;
+    color: #fff;
+    transition: all .2s linear;
+}
+.category-prd_item:hover i{
+    color: #fff;
+}
+
+/* Containers for header */
+.containers .nav{
+    justify-content: center;
+    padding-right: 16px; 
+}
+.containers .nav li{
+    position: relative;
+}
+.containers ul li::before{
+    content: "";
+    position: absolute;
+    width: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    width: 25px;
+    height: 3px;
+    background: #ccc;
+    display: none;
+}
+.nav-link{
+    color: var(--text-color);
+}
+.nav-item:hover a{
+    color: var(--hover-color);
+    transition: all .1s linear;
+}
+.nav-item:hover::before{
+    display: block;
+    animation: scaleIn .15s linear; 
+}
+
+.link_active::before{
+    content: "";
+    position: absolute;
+    width: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: auto;
+    width: 25px;
+    height: 3px;
+    background: #ccc;
+}
+.sub-menu{
+    width: 215px;
+    display: none;
+    transform-origin: top;
+    box-shadow: 0 1px 2px 2px rgba(0,0,0,0.2);
+     z-index: 1;
+     background-color:#fff
+}
+.sub-menu ul{
+    border-radius: unset;
+   
+
+}
+.sub-menu_item{
+    border-color: var(--hover-color) !important;
+    margin: 0px 20px;
+    padding-right: unset;
+    padding-left: unset;
+    cursor: pointer;
+}
+.sub-menu_item:hover{
+    color: var(--hover-color);
+    transition: all .15s linear;
+}
+.product_menu:hover .sub-menu{
+    perspective-origin: left;
+    display: block;
+    animation: rotateXIn .5s linear;
+}
+
+/* Hotline header */
+.hotline{
+    padding-left: 32px;
+}
+.hotline i{
+    font-size: 1.438rem;
+    color: var(--back-color);
+}
+.hotline_num{
+    font-size: 1.5rem;
+    color: #000084;
+    font-weight: 500;
+}
+.hotline_num:hover{
+    color: var(--hover-color);
+    transition: all .15s linear;
+}
