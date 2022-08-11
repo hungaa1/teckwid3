@@ -47,6 +47,7 @@
 .search-form{
     width: fit-content;
 }
+
 .header-main .search input[name="query"]{
     border-radius: 5px;
     padding: 10px 15px;
@@ -286,4 +287,16 @@
     font-size:12px;
     color: rgb(245, 56, 56);
     margin-bottom: 4px;
+}
+.search-form .closeSearch{
+    width: 30px;
+    top: 14px;
+    right: 44px;
+    font-size: 19px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
 }

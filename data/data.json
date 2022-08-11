@@ -3,29 +3,35 @@
         {
             "id": 1,
             "name": "YODY Men's Wind Jacket",
-            "price":"$11.00",
+            "price":"11.00",
             "quality":4.0,
             "status": "still",
             "sold":290,
             "sale": "Buy 2 get $0.8 off",
-            "image" : "../public/image/imagesProduct/aoYody.jpg",
+            "image" : "./public/image/imagesProduct/aoYody.jpg",
             "shirt" : {
                 "id" : 1,
                 "color" :[ 
+
                     {
                         "id" : 1,
-                        "color" : "brown",
-                        "image" : "aoYodybrown.jpg"
+                        "color" : "yellow",
+                        "image" : "./public/image/imagesProduct/aoYody.jpg"
                     },
                     {
                         "id" : 2,
                         "color" : "white",
-                        "image" : "aoYodywhite.jpg"
+                        "image" : "./public/image/imagesProduct/aoYodywhite.jpg"
                     },
                     {
                         "id" : 3,
                         "color" : "yellow",
-                        "image" : "aoYodyyellow.jpg"
+                        "image" : "./public/image/imagesProduct/aoYodyyellow.jpg"
+                    }
+                    ,{
+                        "id" : 4,
+                        "color" : "brown",
+                        "image" : "./public/image/imagesProduct/aoYodybrown.jpg"
                     }
                 ],
                 "size": [            
@@ -51,30 +57,36 @@
         {
             "id": 2,
             "name": "Unisex T-shirt Men Women TEEZ",
-            "price":"$2.79",
-            "quality":4.9,
+            "price":"2.79",
+            "quality":4.0,
             "status": "still",
             "sold":120,
             "sale": "Free high quality cotton socks",
-            "image" : "aothunUnisex.jpg",
+            "image" : "./public/image/imagesProduct/aothunUnisex.jpg",
             "shirt" : {
                 "id" : 2,
                 "color" :[ 
                     {
                         "id" : 1,
-                        "color" : "black",
-                        "image" : "aoUnisexblack.jpg"
-                    },
+                        "color" : "green",
+                        "image" : "./public/image/imagesProduct/aothunUnisex.jpg"
+                    }
+                    ,
                     {
                         "id" : 2,
                         "color" : "white",
-                        "image" : "aoUnisexwhite.jpg"
+                        "image" : "./public/image/imagesProduct/aoUnisexwhite.jpg"
                     },
                     {
                         "id" : 3,
                         "color" : "green",
-                        "image" : "aoUnisexgreen.jpg"
+                        "image" : "./public/image/imagesProduct/aoUnisexgreen.jpg"
+                    },{
+                        "id" : 4,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/aoUnisexblack.jpg"
                     }
+                     
                 ],
                 "size": [            
                     {
@@ -99,29 +111,36 @@
         {
             "id": 3,
             "name": "Unisex CAPMAN basic T-shirt",
-            "price":"$3.99",
-            "quality":4.8,
+            "price":"3.99",
+            "quality":4.0,
             "status": "still",
             "sold":150,
             "sale": "Buy 2 get $0.3 off",
-            "image" : "aophong.jpeg",
+            "image" : "./public/image/imagesProduct/aophong.jpg",
             "shirt" : {
                 "id" : 3,
                 "color" :[ 
-                {
+                    {
                     "id" : 1,
-                    "color" : "black",
-                    "image" : "aophongden.jpeg"
-                },
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/aophong.jpg"
+                }
+               ,
                 {
                     "id" : 2,
                     "color" : "brown",
-                    "image" : "aophongnau.jpeg"
+                    "image" : "./public/image/imagesProduct/aophongnau.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "white",
-                    "image" : "aophongtrang.jpeg"
+                    "image" : "./public/image/imagesProduct/aophongtrang.jpg"
+                },
+                
+                 {
+                    "id" : 4,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/aophongden.jpg"
                 }
                 ],
                 "size": [            
@@ -147,24 +166,31 @@
         {
             "id": 4,
             "name": "Men's and Women's Seery Polo Shirts",
-            "price":"$4.02",
-            "quality":4.6,
+            "price":"4.02",
+            "quality":4.0,
             "status": "still",
             "sold":229,
             "sale": "Buy 2 get $1.25 off",
-            "image" : "aopolo.jpg",
+            "image" : "./public/image/imagesProduct/aopolo.jpg",
             "shirt" : {
                 "id" : 4,
                 "color" :[ 
                 {
-                    "id" : 1,
-                    "color" : "black",
-                    "image" : "aopoloden.jpg"
-                },
+                    "id" : 2,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/aopolo.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "white",
-                    "image" : "aopolotrang.jpg"
+                    "image" : "./public/image/imagesProduct/aopolotrang.jpg"
+                },
+                 
+                {
+                    "id" : 3,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/aopoloden.jpg"
                 }
                 ],
                 "size": [            
@@ -190,25 +216,33 @@
         {
             "id": 5,
             "name": "TOKYOLIFE Women's Sunscreen",
-            "price":"$20.35",
-            "quality":4.9,
+            "price":"20.35",
+            "quality":4.0,
             "status": "still",
             "sold":350,
             "sale": "Buy 2 get 10% off",
-            "image" : "aochongnangnu.jpg",
+            "image" : "./public/image/aochongnangnu.webp",
             "shirt" : {
                 "id" : 5,
                 "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "blue",
-                    "image" : "aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "orange",
-                    "image" : "aochongnangnuCam.jpg"
-                }
+                    {
+                        "id" : 1,
+                        "color" : "orange",
+                        "image" : "./public/image/aochongnangnu.webp"
+                    }
+                    ,
+                    {
+                        "id" : 2,
+                        "color" : "orange",
+                        "image" : "./public/image/imagesProduct/aochongnangnuCam.jpg"
+                    },
+                    
+                    {
+                        "id" : 3,
+                        "color" : "blue",
+                        "image" : "./public/image/imagesProduct/aochongnangnuxanh.jpg"
+                    }
+                
                 ],
                 "size": [   
                     {
@@ -233,30 +267,36 @@
         {
             "id": 6,
             "name": "AQT puff-sleeve off-shoulder top",
-            "price":"$1.35",
-            "quality":4.7,
+            "price":"1.35",
+            "quality":4.0,
             "status": "still",
             "sold":570,
             "sale": "sale 20%",
-            "image" : "aonu.jpg",
+            "image" : "./public/image/imagesProduct/aonu.jpg",
             "shirt" : {
                 "id" : 6,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "white",
-                    "image" : "aonuWhite.jpg"
-                },
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/aonu.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "pink",
-                    "image" : "aonuPink.jpg"
+                    "image" : "./public/image/imagesProduct/aonuPink.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "green",
-                    "image" : "aonuGreen.jpg"
+                    "image" : "./public/image/imagesProduct/aonuGreen.jpg"
+                },{
+                    "id" : 4,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/aonuWhite.jpg"
                 }
+                 
                 ],
                 "size": [   
                     {
@@ -281,25 +321,31 @@
         {
             "id": 7,
             "name": "Wide leg KAKI pants",
-            "price":"$2.65",
-            "quality":4.6,
+            "price":"2.65",
+            "quality":4.0,
             "status": "still",
             "sold":620,
             "sale": "sale 30%",
-            "image" : "quannam.jpg",
+            "image" : "./public/image/imagesProduct/quannam.jpg",
             "pant" : {
                 "id" : 7,
                 "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "white",
-                    "image" : "quannamBe.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "black",
-                    "image" : "quannamden.jpg"
-                }
+                    {
+                        "id" : 1,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/quannam.jpg"
+                    }
+                    ,
+                    {
+                        "id" : 2,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/quannamden.jpg"
+                    },{
+                        "id" : 3,
+                        "color" : "white",
+                        "image" : "./public/image/imagesProduct/quannamBe.jpg"
+                    }
+                
                 ],
                 "size": [   
                     {
@@ -324,25 +370,32 @@
         {
             "id": 8,
             "name": "Shorts for men and women Hm1986",
-            "price":"$2.39",
-            "quality":4.6,
+            "price":"2.39",
+            "quality":4.0,
             "status": "still",
             "sold":110,
             "sale": "sale 10%",
-            "image" : "quanshort.jpg",
+            "image" : "./public/image/imagesProduct/quanshort.jpg",
             "pant" : {
                 "id" : 8,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "gray",
-                    "image" : "quanshortxam.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "black",
-                    "image" : "quanshortden.jpg"
-                }
+                "color" :[
+                    {
+                        "id" : 1,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/quanshort.jpg"
+                    } 
+                    ,
+                    {
+                        "id" : 2,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/quanshortden.jpg"
+                    },
+                    {
+                        "id" : 3,
+                        "color" : "gray",
+                        "image" : "./public/image/imagesProduct/quanshortxam.jpg"
+                    }
+                
                 ],
                 "size": [   
                     {
@@ -367,30 +420,36 @@
         {
             "id": 9,
             "name": "Women's wide leg pants",
-            "price":"$3.00",
-            "quality":4.9,
+            "price":"3.00",
+            "quality":4.0,
             "status": "still",
             "sold":230,
             "sale": "sale 15%",
-            "image" : "quannu.jpg",
+            "image" : "./public/image/imagesProduct/quannu.jpg",
             "pant" : {
                 "id" : 9,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "white",
-                    "image" : "quannutrang.jpg"
-                },
+                    "color" : "violet",
+                    "image" : "./public/image/imagesProduct/quannu.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "quannuden.jpg"
+                    "image" : "./public/image/imagesProduct/quannuden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "violet",
-                    "image" : "quannutim.jpg"
+                    "image" : "./public/image/imagesProduct/quannutim.jpg"
+                },{
+                    "id" : 4,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/quannutrang.jpg"
                 }
+                 
                 ],
                 "size": [   
                     {
@@ -415,25 +474,31 @@
         {
             "id": 10,
             "name": "Fashionable skirts for Women",
-            "price":"$4.00",
-            "quality":4.7,
+            "price":"4.00",
+            "quality":4.0,
             "status": "still",
             "sold":330,
             "sale": "sale 12%",
-            "image" : "chanvay.jpg",
+            "image" : "./public/image/imagesProduct/chanvay.jpg",
             "skirt" : {
                 "id" : 10,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "white",
-                    "image" : "chanvaytrang.jpg"
-                },
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/chanvay.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "chanvayden.jpg"
+                    "image" : "./public/image/imagesProduct/chanvayden.jpg"
+                },{
+                    "id" : 3,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/chanvaytrang.jpg"
                 }
+                
                 ],
                 "size": [   
                     {
@@ -458,30 +523,36 @@
         {
             "id": 11,
             "name": "Jordan Shoe Low Neck Men Women",
-            "price":"$9.23",
-            "quality":4.9,
+            "price":"9.23",
+            "quality":4.0,
             "status": "still",
             "sold":390,
             "sale": "sale 15%",
-            "image" : "giayjd.jpg",
+            "image" : "./public/image/imagesProduct/giayjd.jpg",
             "shoes" : {
                 "id" : 11,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "gray",
-                    "image" : "giayjdxam.jpg"
-                },
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/giayjd.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "giayjdden.jpg"
+                    "image" : "./public/image/imagesProduct/giayjdden.jpg"
+                },{
+                    "id" : 3,
+                    "color" : "gray",
+                    "image" : "./public/image/imagesProduct/giayjdxam.jpg"
                 },
                 {
-                    "id" : 3,
+                    "id" : 4,
                     "color" : "blue",
-                    "image" : "giayjdxanh.jpg"
+                    "image" : "./public/image/imagesProduct/giayjdxanh.jpg"
                 }
+                
                 ],
                 "size": [   
                     {
@@ -510,30 +581,37 @@
         {
             "id": 12,
             "name": "Basic Sneakers for Women",
-            "price":"$9.35",
-            "quality":4.8,
+            "price":"9.35",
+            "quality":4.0,
             "status": "still",
             "sold":450,
             "sale": "sale 25%",
-            "image" : "giaynu.jpg",
+            "image" : "./public/image/imagesProduct/giaynu.jpg",
             "shoes" : {
                 "id" : 12,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "white",
-                    "image" : "giaynutrang.jpg"
-                },
+                "color" :[    
+                { "id" : 1,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/giaynu.jpg"
+                }
+                ,
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "giaynuden.jpg"
+                    "image" : "./public/image/imagesProduct/giaynuden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "blue",
-                    "image" : "giayjdxanh.jpg"
+                    "image" : "./public/image/imagesProduct/giayjdxanh.jpg"
+                },{
+                    "id" : 4,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/giaynutrang.jpg"
                 }
+                
+                
+
                 ],
                 "size": [   
                     {
@@ -562,29 +640,34 @@
         {
             "id": 13,
             "name": "Jordan Shoe Low Neck Men Women",
-            "price":"$9.75",
-            "quality":4.9,
+            "price":"9.75",
+            "quality":4.0,
             "status": "still",
             "sold":390,
             "sale": "sale 15%",
-            "image" : "giayjd.jpg",
+            "image" : "./public/image/imagesProduct/giayjd.jpg",
             "shoes" : {
                 "id" : 13,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "gray",
-                    "image" : "giayjdxam.jpg"
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/giayjd.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "giayjdden.jpg"
+                    "image" : "./public/image/imagesProduct/giayjdden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "blue",
-                    "image" : "giayjdxanh.jpg"
+                    "image" : "./public/image/imagesProduct/giayjdxanh.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "gray",
+                    "image" : "./public/image/imagesProduct/giayjdxam.jpg" 
                 }
                 ],
                 "size": [   
@@ -614,24 +697,29 @@
         {
             "id": 14,
             "name": "Wosa checkered women's sports shoes",
-            "price":"$10.00",
-            "quality":4.8,
+            "price":"10.00",
+            "quality":4.0,
             "status": "still",
             "sold":390,
             "sale": "sale 20%",
-            "image" : "giaycaro.jpg",
+            "image" : "./public/image/imagesProduct/giaycaro.jpg",
             "shoes" : {
                 "id" : 14,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "giaycarotrang.jpg"
+                    "image" : "./public/image/imagesProduct/giaycarotrang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "giaycaroden.jpg"
+                    "image" : "./public/image/imagesProduct/giaycaroden.jpg"
+                },
+                 {
+                    "id" : 3,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/giaycaro.jpg"
                 }
                 ],
                 "size": [   
@@ -661,34 +749,39 @@
         {
             "id": 15,
             "name": "Gucci Men's and Women's Sports Shoes",
-            "price":"$11.00",
-            "quality":4.8,
+            "price":"11.00",
+            "quality":4.0,
             "status": "Out of stock",
             "sold":490,
             "sale": "sale 25%",
-            "image" : "giaygucci.jpg",
+            "image" : "./public/image/imagesProduct/giaygucci.jpg",
             "shoes" : {
                 "id" : 15,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "slippery",
-                    "image" : "giayguccitron.jpg"
+                    "image" : "./public/image/imagesProduct/giayguccitron.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "NY",
-                    "image" : "giayNY.jpg"
+                    "image" : "./public/image/imagesProduct/giayNY.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "font",
-                    "image" : "giayguccido.jpg"
+                    "image" : "./public/image/imagesProduct/giayguccido.jpg"
                 },
                 {
                     "id" : 4,
                     "color" : "lip",
-                    "image" : "giayguccimoi.jpg"
+                    "image" : "./public/image/imagesProduct/giayguccimoi.jpg"
+                }, {
+                    "id" : 5,
+                    "color" : "lip",
+                    "image" : "./public/image/imagesProduct/giaygucci.jpg"
+
                 }
                 ],
                 "size": [   
@@ -718,34 +811,39 @@
         {
             "id": 16,
             "name": "Cap embroidered with letter P",
-            "price":"$2.69",
-            "quality":4.9,
+            "price":"2.69",
+            "quality":4.0,
             "status": "still",
             "sold":60,
             "sale": "sale 10%",
-            "image" : "muP.jpg",
+            "image" : "./public/image/imagesProduct/muP.jpg",
             "hat" : {
                 "id" : 16,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "muPtrang.jpg"
+                    "image" : "./public/image/imagesProduct/muPtrang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "muPden.jpg"
+                    "image" : "./public/image/imagesProduct/muPden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "yellow",
-                    "image" : "muPvang.jpg"
+                    "image" : "./public/image/imagesProduct/muPvang.jpg"
                 },
                 {
                     "id" : 4,
                     "color" : "pink",
-                    "image" : "muPHong.jpg"
+                    "image" : "./public/image/imagesProduct/muPHong.jpg"
+                },{
+                    "id" : 5,
+                    "color" : "pink",
+                    "image" : "./public/image/imagesProduct/muP.jpg"
+
                 }
                 ],
                 "size": "oversize"
@@ -754,34 +852,41 @@
         {
             "id": 17,
             "name": "NY logo embroidered cap",
-            "price":"$2.41",
-            "quality":4.7,
+            "price":"2.41",
+            "quality":4.0,
             "status": "still",
             "sold":120,
             "sale": "sale 5%",
-            "image" : "muNY.jpg",
+            "image" : "./public/image/imagesProduct/muNY.jpg",
             "hat" : {
                 "id" : 17,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "muNYtrang.jpg"
+                    "image" : "./public/image/imagesProduct/muNYtrang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "muNYden.jpg"
+                    "image" : "./public/image/imagesProduct/muNYden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "pink",
-                    "image" : "muNYhong.jpg"
+                    "image" : "./public/image/imagesProduct/muNYhong.jpg"
                 },
                 {
                     "id" : 4,
                     "color" : "xanh",
-                    "image" : "muNYxanh.jpg"
+                    "image" : "./public/image/imagesProduct/muNYxanh.jpg"
+
+                }, {
+                    "id" : 5,
+                    "color" : "xanh",
+                    "image" : "./public/image/imagesProduct/muNY.jpg"
+
+
                 }
                 ],
                 "size": "oversize"
@@ -790,39 +895,45 @@
         {
             "id": 18,
             "name": "Nekosg Men's and Women's Elastic Shorts",
-            "price":"$1.39",
-            "quality":4.6,
+            "price":"1.39",
+            "quality":4.0,
             "status": "still",
             "sold":110,
             "sale": "sale 10%",
-            "image" : "quanshort2.jpg",
+            "image" : "./public/image/imagesProduct/quanshort2.jpg",
             "pant" : {
                 "id" : 18,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "brown",
-                    "image" : "quanshort2nau.jpg"
+                    "image" : "./public/image/imagesProduct/quanshort2nau.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "quanshort2den.jpg"
+                    "image" : "./public/image/imagesProduct/quanshort2den.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "white",
-                    "image" : "quanshort2trang.jpg"
+                    "image" : "./public/image/imagesProduct/quanshort2trang.jpg"
                 },
                 {
                     "id" : 4,
                     "color" : "blue",
-                    "image" : "quanshort2xanh.jpg"
+                    "image" : "./public/image/imagesProduct/quanshort2xanh.jpg"
                 },
                 {
                     "id" : 5,
                     "color" : "gray",
-                    "image" : "quanshort2xam.jpg"
+                    "image" : "./public/image/imagesProduct/quanshort2xam.jpg"
+                },
+                 {
+                    "id" : 6,
+                    "color" : "gray",
+                    "image" : "./public/image/imagesProduct/quanshort2.jpg"
+
                 }
                 ],
                 "size": [   
@@ -848,39 +959,44 @@
         {
             "id": 19,
             "name": "KAKI BASIC PANTS Unisex Pants",
-            "price":"$3.55",
-            "quality":4.8,
+            "price":"3.55",
+            "quality":4.0,
             "status": "still",
             "sold":620,
             "sale": "sale 30%",
-            "image" : "quankaki.jpg",
+            "image" : "./public/image/imagesProduct/quankaki.jpg",
             "pant" : {
                 "id" : 19,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "quankakitrang.jpg"
+                    "image" : "./public/image/imagesProduct/quankakitrang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "black",
-                    "image" : "quankakiden.jpg"
+                    "image" : "./public/image/imagesProduct/quankakiden.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "matte brown",
-                    "image" : "quankakitan.jpg"
+                    "image" : "./public/image/imagesProduct/quankakitan.jpg"
                 },
                 {
                     "id" : 4,
                     "color" : "light brown",
-                    "image" : "quankakinau.jpg"
+                    "image" : "./public/image/imagesProduct/quankakinau.jpg"
                 },
                 {
                     "id" : 5,
                     "color" : "dark brown",
-                    "image" : "quankakinaudam.jpg"
+                    "image" : "./public/image/imagesProduct/quankakinaudam.jpg"
+                },{
+                    "id" : 6,
+                    "color" : "dark brown",
+                    "image" : "./public/image/imagesProduct/quankaki.jpg"
+
                 }
                 ],
                 "size": [   
@@ -906,29 +1022,34 @@
         {
             "id": 20,
             "name": "Ulzzang Women's Shoes Checkered pattern ",
-            "price":"$7.00",
-            "quality":4.8,
+            "price":"7.00",
+            "quality":4.0,
             "status": "still",
             "sold":390,
             "sale": "sale 20%",
-            "image" : "giaycaro2.jpg",
+            "image" : "./public/image/imagesProduct/giaycaro2.jpg",
             "shoes" : {
                 "id" : 20,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "giaycaro2trang.jpg"
+                    "image" : "./public/image/imagesProduct/giaycaro2trang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "green",
-                    "image" : "giaycaro2xanh.jpg"
+                    "image" : "./public/image/imagesProduct/giaycaro2xanh.jpg"
                 },
                 {
                     "id" : 3,
                     "color" : "pink",
-                    "image" : "giaycaro2hong.jpg"
+                    "image" : "./public/image/imagesProduct/giaycaro2hong.jpg"
+                }, {
+                    "id" : 4,
+                    "color" : "pink",
+                     "image" : "./public/image/imagesProduct/giaycaro2.jpg"
+
                 }
                 ],
                 "size": [   
@@ -958,24 +1079,30 @@
         {
             "id": 21,
             "name": "Ulzzang dress for Women",
-            "price":"$5.00",
-            "quality":4.8,
+            "price":"5.00",
+            "quality":4.0,
             "status": "still",
             "sold":330,
             "sale": "sale 12%",
-            "image" : "vay.jpg",
+            "image" : "./public/image/imagesProduct/vay.jpg",
             "skirt" : {
                 "id" : 21,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "vaytrang.jpg"
+                    "image" : "./public/image/imagesProduct/vaytrang.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "blue",
-                    "image" : "vayxanh.jpg"
+                    "image" : "./public/image/imagesProduct/vayxanh.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/vay.jpg"
+
                 }
                 ],
                 "size": [   
@@ -994,6 +1121,484 @@
                     {
                         "id" : 4,
                         "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 22,
+            "name": "Culottes Ulzzang Loose Pants",
+            "price":"4.00",
+            "quality":4.0,
+            "status": "still",
+            "sold":330,
+            "sale": "sale 15%",
+            "image" : "./public/image/imagesProduct/quannu2.jpg",
+            "pant" : {
+                "id" : 22,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/quannu2trang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/quannu2den.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "brown",
+                    "image" : "./public/image/imagesProduct/quannu2nau.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "brown",
+                    "image" : "./public/image/imagesProduct/quannu2.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 23,
+            "name": "Women's polo shirt",
+            "price":"3.00",
+            "quality":4.0,
+            "status": "still",
+            "sold":390,
+            "sale": "sale 18%",
+            "image" : "./public/image/imagesProduct/aopolonu.jpg",
+            "shirt" : {
+                "id" : 23,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/aopolonutrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/aopolonuden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/aopolonuxanh.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/aopolonu.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 24,
+            "name": "Women's Shorts Folding Bears",
+            "price":"2.39",
+            "quality":4.0,
+            "status": "still",
+            "sold":130,
+            "sale": "sale 12%",
+            "image" : "./public/image/imagesProduct/quanshortnu.jpg",
+            "pant" : {
+                "id" : 24,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "pink",
+                    "image" : "./public/image/imagesProduct/quanshortnuhong.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/quanshortnuden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "violet",
+                    "image" : "./public/image/imagesProduct/quanshortnutim.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/quanshortnuxanh.jpg"
+                },
+                {
+                    "id" : 5,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/quanshortnu.jpg"
+
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 25,
+            "name": "Caps Embroidered LA",
+            "price":"2.00",
+            "quality":4.0,
+            "status": "still",
+            "sold":235,
+            "sale": "sale 10%",
+            "image" : "./public/image/imagesProduct/muLA.jpg",
+            "hat" : {
+                "id" : 17,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/muLAtrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/muLAden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/muLAxanh.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/muLA.jpg"
+                }
+                ],
+                "size": "oversize"
+            }
+        },
+        {
+            "id": 26,
+            "name": "High-end women's fashion pleated short tennis skirt",
+            "price":"3.00",
+            "quality":4.0,
+            "status": "still",
+            "sold":420,
+            "sale": "sale 12%",
+            "image" : "./public/image/imagesProduct/chanvay2.jpg",
+            "skirt" : {
+                "id" : 26,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/chanvay2trang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/chanvay2den.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "gray",
+                    "image" : "./public/image/imagesProduct/chanvay2xam.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "xanh",
+                    "image" : "./public/image/imagesProduct/chanvay2xanh.jpg"
+                },
+                 {
+                    "id" : 5,
+                    "color" : "xanh",
+                    "image" : "./public/image/imagesProduct/chanvay2.jpg"
+
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 27,
+            "name": "Korean Fashion Plaid Men's Long Pants",
+            "price":"3.40",
+            "quality":4.0,
+            "status": "still",
+            "sold":130,
+            "sale": "sale 15%",
+            "image" : "./public/image/imagesProduct/quandai.jpg",
+            "pant" : {
+                "id" : 27,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "brown",
+                    "image" : "./public/image/imagesProduct/quandainau.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/quandaitrang.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/quandaixanh.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "green",
+                    "image" : "./public/image/imagesProduct/quandai.jpg"
+
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "name": "Sleeveless Sweater Basic Vender Ss1",
+            "price":"3.29",
+            "quality":4.0,
+            "status": "still",
+            "sold":250,
+            "sale": "sale 20%",
+            "image" : "./public/image/imagesProduct/aophong2.jpg",
+            "shirt" : {
+                "id" : 28,
+                "color" :[ 
+                    {
+                        "id" : 1,
+                        "color" : "black",
+                        "image" : "./public/image/imagesProduct/aophong2den.jpg"
+                    },
+                    {
+                        "id" : 2,
+                        "color" : "white",
+                        "image" : "./public/image/imagesProduct/aophong2trang.jpg"
+                    },
+                    {
+                        "id" : 3,
+                        "color" : "blue",
+                        "image" : "./public/image/imagesProduct/aophong2xanh.jpg"
+                    },
+                    {
+                        "id" : 4,
+                        "color" : "violet",
+                        "image" : "./public/image/imagesProduct/aophong2tim.jpg"
+                    },
+                     {
+                        "id" : 5,
+                        "color" : "violet",
+                        "image" : "./public/image/imagesProduct/aophong2.jpg"
+                    }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 29,
+            "name": "Men's skinny jeans",
+            "price":"2.69",
+            "quality":4.0,
+            "status": "still",
+            "sold":470,
+            "sale": "sale 18%",
+            "image" : "./public/image/imagesProduct/quanjeannam.jpg",
+            "pant" : {
+                "id" : 29,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/quanjeannamtrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "./public/image/imagesProduct/quanjeannamden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/quanjeannamxanh.jpg"
+                }
+                ,{
+                    "id" : 4,
+                    "color" : "blue",
+                    "image" : "./public/image/imagesProduct/quanjeannam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 30,
+            "name": "Super hot shirt 2022",
+            "price":"3.59",
+            "quality":4.0,
+            "status": "still",
+            "sold":360,
+            "sale": "sale 18%",
+            "image" : "./public/image/imagesProduct/aosominu.jpg",
+            "shirt" : {
+                "id" : 30,
+                "color" :[ 
+                    {
+                        "id" : 1,
+                        "color" : "brown",
+                        "image" : "./public/image/imagesProduct/aosominunau.jpg"
+                    },
+                    {
+                        "id" : 2,
+                        "color" : "green",
+                        "image" : "./public/image/imagesProduct/aosominuxanhla.jpg"
+                    },
+                    {
+                        "id" : 3,
+                        "color" : "blue",
+                        "image" : "./public/image/imagesProduct/aosominuxanh.jpg"
+                    },
+                    {
+                        "id" : 4,
+                        "color" : "blue",
+                        "image" : "./public/image/imagesProduct/aosominu.jpg"
+                    }
+                ],
+                "size": [            
+                    {
+                        "id" : 1,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 2,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "XL"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XXL"
                     }
                 ]
             }

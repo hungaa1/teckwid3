@@ -24,22 +24,24 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="./css/footer.css" />
-    <link rel="stylesheet" href="./css//body.css" />
+    <link rel="stylesheet" href="./css/body.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/basic.css" />
+
     <title>Thrift Fashion</title>
   </head>
   <body>
     <header>
-      <div class="container">
+       <div class="container">
         <div class="row">
           <div class="header">
             <div class="header-main">
               <div class="row align-items-center">
                 <div class="logo col-lg-3">
-                  <a href="#">
+                  <a href="">
                     <img
                       src="./public/image/logo_header_3.png"
                       alt="logo"
@@ -49,13 +51,14 @@
                 </div>
 
                 <div class="search col-lg-5 d-flex justify-content-center">
-                  <form action="" class="search-form position-relative">
+                  <div class="search-form position-relative">
                     <input
                       class="b-color"
                       type="text"
                       name="query"
                       placeholder="Search product"
                     />
+                    <span class="closeSearch"><i class="fa-solid fa-xmark"></i></span>
                     <div class="results-bar"></div>
 
                     <div
@@ -65,14 +68,14 @@
                         class="fa-solid fa-magnifying-glass position-absolute top-50 start-50 translate-middle"
                       ></i>
                     </div>
-                  </form>
+                  </div>
                 </div>
 
                 <div class="user col-lg-4 d-flex justify-content-center">
                   <ul class="account list-unstyled d-flex align-items-center">
-                    <li class="account-hover"><a href="#">Đăng ký</a></li>
+                    <li class="account-hover"><a href="#">Register</a></li>
                     <li class="line_">|</li>
-                    <li class="account-hover"><a href="#">Đăng nhập</a></li>
+                    <li class="account-hover"><a href="#">Login</a></li>
                     <li class="cart ps-5">
                       <i class="fa-solid fa-dolly position-relative">
                         <div
@@ -96,29 +99,29 @@
                   <div class="category position-relative">
                     <div class="category-icon">
                       <i class="fa-solid fa-bars"></i>
-                      <span class="fw-bolder">danh mục sản phẩm</span>
+                      <span class="fw-bolder">List Products</span>
                     </div>
                     <div class="category-prd d-none position-absolute">
                       <ul class="list-group">
-                        <li class="category-prd_item list-group-item border-0">
+                        <li class="category-prd_item list-group-item border-0 type">
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Quần</span>
+                          <span">Shirt</span>
                         </li>
-                        <li class="category-prd_item list-group-item border-0">
+                        <li class="category-prd_item list-group-item border-0 type">
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Áo</span>
+                          <span>Pant</span>
                         </li>
-                        <li class="category-prd_item list-group-item border-0">
+                        <li class="category-prd_item list-group-item border-0 type">
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Váy</span>
+                          <span >Skirt</span>
                         </li>
-                        <li class="category-prd_item list-group-item border-0">
+                        <li class="category-prd_item list-group-item border-0 type">
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Giày</span>
+                          <span >Shoes</span>
                         </li>
-                        <li class="category-prd_item list-group-item border-0">
+                        <li class="category-prd_item list-group-item border-0 type">
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Mũ</span>
+                          <span >Hat</span>
                         </li>
                       </ul>
                     </div>
@@ -131,14 +134,14 @@
                   <nav class="containers">
                     <ul class="nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Trang chủ</a>
+                        <a class="nav-link" href="#">Home</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Giới thiệu</a>
+                        <a class="nav-link" href="#">Introduction</a>
                       </li>
                       <li class="nav-item position-relative product_menu">
                         <a class="nav-link" href="#">
-                          <span>Sản phẩm</span>
+                          <span>Products</span>
                           <i class="fa-solid fa-angle-down"></i>
                         </a>
                         <div class="sub-menu position-absolute">
@@ -146,25 +149,25 @@
                             <li
                               class="sub-menu_item list-group-item border-0 border-bottom"
                             >
-                              <span>Quần</span>
+                              <span>Shirt</span>
                             </li>
                             <li
                               class="sub-menu_item list-group-item border-0 border-bottom"
                             >
-                              <span>Áo</span>
+                              <span>Pant</span>
                             </li>
                             <li
                               class="sub-menu_item list-group-item border-0 border-bottom"
                             >
-                              <span>Váy</span>
+                              <span>Skirt</span>
                             </li>
                             <li
                               class="sub-menu_item list-group-item border-0 border-bottom"
                             >
-                              <span>Giày</span>
+                              <span>Shoes</span>
                             </li>
                             <li class="sub-menu_item list-group-item border-0">
-                              <span>Mũ</span>
+                              <span>Hat</span>
                             </li>
                           </ul>
                         </div>
@@ -195,11 +198,11 @@
     <div class="body">
       <div class="slide">
         <div class="image">
-          <img src="./public/image/fashion1.jpg" alt="Fashion" />
+          <img src="./public/image/fashion.jpg" alt="Fashion" />
         </div>
         <div class="hello"><p>Hello Everyone</p></div>
       </div>
-      <div class="list">
+      <div class="listProductName">
         <h3>List: <span> shirt</span></h3>
       </div>
 
@@ -366,11 +369,26 @@
       </div>
     </footer>
   </body>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  ></script>
+  
+  <script >
+    
+let checkClick = 1;
+console.log('ok');
+$(".category-icon").click((e) => {
+  console.log(e.target);
+  if (checkClick == 1) {
+    console.log(1);
+    document.querySelector(".category-prd").setAttribute(
+      "style",
+      "display: block !important; z-index: 1;"
+    );
+    checkClick = 0;
+  } else {
+    document.querySelector(".category-prd").setAttribute("style", "display: none !important;");
+    checkClick = 1;
+  }
+});
+
+  </script>
   <script src="./js/product.js"></script>
 </html>
