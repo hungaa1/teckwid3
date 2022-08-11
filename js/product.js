@@ -107,14 +107,26 @@ product.onclick = function (e) {
 
     dataN.map((prop) => {
       if (e.target.dataset.index == prop.id) {
+        console.log(prop);
+        let quality;
+        // if(prop.quality == 1.0){
+        //   quality = ''
+        // }
         let div = `<div class='image'><img src=
-                  ${prop.avatar}
-                   alt='${prop.name}'
-                  /></div><div class='order'><p class='productName' >
-                 ${prop.name}
-                  </p><div class='price'><p>
-                   ${prop.price}
-                </p></div></div><div class='resultColor'></div>`;
+                    ${prop.avatar}
+                    alt='${prop.name}'
+                    /></div>
+                    <div class='order'>
+                      <div class='star'>${prop.quality}.0<span></span></div>
+                      <p class='productName' >
+                        ${prop.name}
+                      </p>
+                    <div class='price'><p>
+                     <sup>$</sup>${prop.price}</p>
+                  </div> 
+                  <div class='saleProduct'>${prop.sale}</div>
+                </div>
+                <div class='resultColor'></div>`;
         productDetail.insertAdjacentHTML("beforeend", div);
 
         const productColor = $(

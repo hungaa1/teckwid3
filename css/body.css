@@ -34,6 +34,7 @@ html{
     box-sizing: border-box;
 }
 
+
 .slide{
         width: 70%;
     height: 400px;
@@ -68,7 +69,18 @@ html{
     margin: auto;
 }
 .productDetail .order{
-    width: 300px;
+    width: 255px;
+    padding: 2px 10px 10px 10px;
+}
+.order .saleProduct{
+    color: #f94949;
+    font-size: 13px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200 200 200 / 24%);
+    font-family: 'ltims', sans-serif;
 }
 .slide .image img{
        width: 100%;
@@ -102,10 +114,9 @@ html{
     font-size: 20px
 }
 .productAll{
-    width: 77%;
+    width: 100%;
     margin: auto;
     padding: 22px 0px;
-    background-color: rgb(200 200 200);
     margin-bottom: 50px;
 }
 .product{
@@ -113,23 +124,20 @@ html{
     flex-wrap: wrap;
     margin: 20px auto;
     padding: 25px 30px;
-    height: 1342px;
     width: 100%;
     justify-content: center;
     position: relative;
-    height: 700px;
-    overflow-y: overlay;
-        background-color: rgb(200 200 200);
     
 }
 .product .results{
-    flex-wrap: wrap;
-     width: 255px;
-    height: 400px;
-      margin: 12px;
+   flex-wrap: wrap;
+    width: 180px;
+    height: 300px;
+    margin: 12px;
     box-shadow: 0 0 3px rgb(88 85 85);
     cursor: pointer;
-        background-color: rgb(255 255 255);
+    background-color: rgb(255 255 255);
+
 
 }
 .results:hover{
@@ -158,7 +166,7 @@ html{
 }
 .productOverview{
     width: 100%;
-        padding: 14px;
+           padding: 5px;
 }
 .productOverview .productName{
     width: 100%;
@@ -166,17 +174,30 @@ html{
     font-family: 'Poppins' ,sans-serif;
     display: flex;
    text-align: center;
-    align-items: center;
         font-weight: 600;
     color: rgb(106 104 104);
     justify-content: center;
+    height: 26px;
 }
 .productOverview .price{
-        font-size: 14px;
+          font-size: 14px;
     margin: 5px 3px;
     color: #ff0000bd;
     font-family: 'ltims', sans-serif;
+    height: 14px;
+    width: 100%;
 
+}
+.order .price p{
+    font-family: 'ltims', sans-serif;
+    color: #ff0000bd;
+
+}
+.order .star{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0 4px 0;
 }
 .price sup{
     color: #ff0000bd;
@@ -187,22 +208,24 @@ html{
     display: flex;
     align-items: center;
        justify-content: space-between;
-       margin-top: 20px;
+       margin-top: 16px;
          
 }
 
 .submitProduct .buyProduct,.addCart{
     
-   padding: 5px ;
+  padding: 2px;
     margin: 0 5px;
     border-radius: 5px;
-   border: 1px solid rgb(135 135 135);
+    border: 1px solid rgb(135 135 135);
     color: #4d4d4d;
     cursor: pointer;
+    font-size: 13px;
+    text-align: center;
 
 }
 .addCart{
-     width: 73px;
+     width: 63px;
 }
 .statusProduct,.statusProduct span{
     color: rgb(0 0 0 / 42%) !important;
@@ -251,7 +274,7 @@ html{
 }
 .resultColor{
        display: flex;
-    width: 282px;
+    width: 333px;
     height: 79px;
     align-items: center;
     overflow-y: overlay;

@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Áo khoác gió nam YODY",
-            "price":"$11.03",
+            "price":"11.03",
             "quality":4.0,
             "status": "còn hàng",
             "sold":290,
@@ -51,7 +51,7 @@
         {
             "id": 2,
             "name": "Áo thun Unisex Nam Nữ TEEZ",
-            "price":"$2.79",
+            "price":"2.79",
             "quality":4.9,
             "status": "còn hàng",
             "sold":120,
@@ -99,7 +99,7 @@
         {
             "id": 3,
             "name": "Áo Phông Unisex CAPMAN basic",
-            "price":"$3.89",
+            "price":"3.89",
             "quality":4.8,
             "status": "còn hàng",
             "sold":150,
@@ -147,7 +147,7 @@
         {
             "id": 4,
             "name": "Áo Polo Seery Nam Nữ",
-            "price":"$4.02",
+            "price":"4.02",
             "quality":4.6,
             "status": "còn hàng",
             "sold":229,
@@ -190,7 +190,301 @@
         {
             "id": 5,
             "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"$20.35",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
+            "quality":4.9,
+            "status": "còn hàng",
+            "sold":350,
+            "sale": "mua 2 giảm 10%",
+            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "shirt" : {
+                "id" : 5,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "xanh da trời",
+                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "cam",
+                    "image" : "../public/image/aochongnangnuCam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },{
+            "id": 5,
+            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
+            "price":"20.35",
             "quality":4.9,
             "status": "còn hàng",
             "sold":350,
@@ -233,7 +527,7 @@
         {
             "id": 6,
             "name": "Áo trễ vai bèo tay phồng AQT",
-            "price":"$1.35",
+            "price":"1.35",
             "quality":4.7,
             "status": "còn hàng",
             "sold":570,
@@ -281,7 +575,7 @@
         {
             "id": 7,
             "name": "Quần KAKI ống rộng",
-            "price":"$2.65",
+            "price":"2.65",
             "quality":4.6,
             "status": "còn hàng",
             "sold":620,
@@ -324,7 +618,7 @@
         {
             "id": 8,
             "name": "Quần Short thun nam nữ Hm1986",
-            "price":"$2.39",
+            "price":"2.39",
             "quality":4.6,
             "status": "còn hàng",
             "sold":110,
@@ -367,7 +661,7 @@
         {
             "id": 9,
             "name": "Quần ống rộng nữ",
-            "price":"$3.05",
+            "price":"3.05",
             "quality":4.9,
             "status": "còn hàng",
             "sold":230,
@@ -415,7 +709,7 @@
         {
             "id": 10,
             "name": "Chân váy thời trang cho Nữ",
-            "price":"$4.03",
+            "price":"4.03",
             "quality":4.7,
             "status": "còn hàng",
             "sold":330,
@@ -458,7 +752,7 @@
         {
             "id": 11,
             "name": "Giày Jordan Cổ Thấp Nam Nữ",
-            "price":"$9.23",
+            "price":"9.23",
             "quality":4.9,
             "status": "còn hàng",
             "sold":390,
@@ -510,7 +804,7 @@
         {
             "id": 12,
             "name": "Giày Sneakers basic cho Nữ",
-            "price":"$9.35",
+            "price":"9.35",
             "quality":4.8,
             "status": "còn hàng",
             "sold":450,
@@ -562,7 +856,7 @@
         {
             "id": 13,
             "name": "Giày Jordan Cổ Thấp Nam Nữ",
-            "price":"$9.75",
+            "price":"9.75",
             "quality":4.9,
             "status": "còn hàng",
             "sold":390,
@@ -614,7 +908,7 @@
         {
             "id": 14,
             "name": "Giày thể thao nữ kẻ caro Wosa",
-            "price":"$10",
+            "price":"10",
             "quality":4.8,
             "status": "còn hàng",
             "sold":390,
@@ -661,7 +955,7 @@
         {
             "id": 15,
             "name": "Giày thể thao Nam Nữ gucci",
-            "price":"$11.02",
+            "price":"11.02",
             "quality":4.8,
             "status": "hết hàng",
             "sold":490,
@@ -718,7 +1012,7 @@
         {
             "id": 16,
             "name": "Mũ lưỡi trai thêu chữ P",
-            "price":"$2.69",
+            "price":"2.69",
             "quality":4.9,
             "status": "hết hàng",
             "sold":60,
@@ -744,7 +1038,7 @@
         {
             "id": 17,
             "name": "Mũ lưỡi trai thêu logo NY",
-            "price":"$2.41",
+            "price":"2.41",
             "quality":4.7,
             "status": "còn hàng",
             "sold":120,
