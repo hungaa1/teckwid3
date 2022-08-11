@@ -2,30 +2,30 @@
     "product" : [
         {
             "id": 1,
-            "name": "Áo khoác gió nam YODY",
-            "price":"11.03",
+            "name": "YODY Men's Wind Jacket",
+            "price":"$11.00",
             "quality":4.0,
-            "status": "còn hàng",
+            "status": "still",
             "sold":290,
-            "sale": "mua 2 giảm $0.8",
-            "avatar" : "../public/image/aoYody.jpg",
+            "sale": "Buy 2 get $0.8 off",
+            "image" : "../public/image/imagesProduct/aoYody.jpg",
             "shirt" : {
                 "id" : 1,
                 "color" :[ 
                     {
                         "id" : 1,
-                        "color" : "nâu",
-                        "image" : "../public/image/aoYodybrown.jpg"
+                        "color" : "brown",
+                        "image" : "aoYodybrown.jpg"
                     },
                     {
                         "id" : 2,
-                        "color" : "trắng",
-                        "image" : "../public/image/aoYodywhite.jpg"
+                        "color" : "white",
+                        "image" : "aoYodywhite.jpg"
                     },
                     {
                         "id" : 3,
-                        "color" : "vàng",
-                        "image" : "../public/image/aoYodyyellow.jpg"
+                        "color" : "yellow",
+                        "image" : "aoYodyyellow.jpg"
                     }
                 ],
                 "size": [            
@@ -50,30 +50,30 @@
         },
         {
             "id": 2,
-            "name": "Áo thun Unisex Nam Nữ TEEZ",
-            "price":"2.79",
+            "name": "Unisex T-shirt Men Women TEEZ",
+            "price":"$2.79",
             "quality":4.9,
-            "status": "còn hàng",
+            "status": "still",
             "sold":120,
-            "sale": "Tặng tất cotton cao cấp",
-            "avatar" : "../public/image/aothunUnisex.jpg",
+            "sale": "Free high quality cotton socks",
+            "image" : "aothunUnisex.jpg",
             "shirt" : {
                 "id" : 2,
                 "color" :[ 
                     {
                         "id" : 1,
-                        "color" : "đen",
-                        "image" : "../public/image/aoUnisexblack.jpg"
+                        "color" : "black",
+                        "image" : "aoUnisexblack.jpg"
                     },
                     {
                         "id" : 2,
-                        "color" : "trắng",
-                        "image" : "../public/image/aoUnisexwhite.jpg"
+                        "color" : "white",
+                        "image" : "aoUnisexwhite.jpg"
                     },
                     {
                         "id" : 3,
-                        "color" : "xanh lá cây",
-                        "image" : "../public/image/aoUnisexgreen.jpg"
+                        "color" : "green",
+                        "image" : "aoUnisexgreen.jpg"
                     }
                 ],
                 "size": [            
@@ -98,30 +98,30 @@
         },
         {
             "id": 3,
-            "name": "Áo Phông Unisex CAPMAN basic",
-            "price":"3.89",
+            "name": "Unisex CAPMAN basic T-shirt",
+            "price":"$3.99",
             "quality":4.8,
-            "status": "còn hàng",
+            "status": "still",
             "sold":150,
-            "sale": "mua 2 giảm $0.3",
-            "avatar" : "../public/image/aophong.jpg",
+            "sale": "Buy 2 get $0.3 off",
+            "image" : "aophong.jpeg",
             "shirt" : {
                 "id" : 3,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "đen",
-                    "image" : "../public/image/aophongden.jpg"
+                    "color" : "black",
+                    "image" : "aophongden.jpeg"
                 },
                 {
                     "id" : 2,
-                    "color" : "nâu",
-                    "image" : "../public/image/aophongnau.jpg"
+                    "color" : "brown",
+                    "image" : "aophongnau.jpeg"
                 },
                 {
                     "id" : 3,
-                    "color" : "trắng",
-                    "image" : "../public/image/aophongtrang.jpg"
+                    "color" : "white",
+                    "image" : "aophongtrang.jpeg"
                 }
                 ],
                 "size": [            
@@ -146,25 +146,25 @@
         },
         {
             "id": 4,
-            "name": "Áo Polo Seery Nam Nữ",
-            "price":"4.02",
+            "name": "Men's and Women's Seery Polo Shirts",
+            "price":"$4.02",
             "quality":4.6,
-            "status": "còn hàng",
+            "status": "still",
             "sold":229,
-            "sale": "mua 2 giảm $1.25đ",
-            "avatar" : "../public/image/aopolo.jpg",
+            "sale": "Buy 2 get $1.25 off",
+            "image" : "aopolo.jpg",
             "shirt" : {
                 "id" : 4,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "đen",
-                    "image" : "../public/image/aopoloden.jpg"
+                    "color" : "black",
+                    "image" : "aopoloden.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "trắng",
-                    "image" : "../public/image/aopolotrang.jpg"
+                    "color" : "white",
+                    "image" : "aopolotrang.jpg"
                 }
                 ],
                 "size": [            
@@ -189,319 +189,25 @@
         },
         {
             "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
+            "name": "TOKYOLIFE Women's Sunscreen",
+            "price":"$20.35",
             "quality":4.9,
-            "status": "còn hàng",
+            "status": "still",
             "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
+            "sale": "Buy 2 get 10% off",
+            "image" : "aochongnangnu.jpg",
             "shirt" : {
                 "id" : 5,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
+                    "color" : "blue",
+                    "image" : "aochongnangnuxanh.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
-                }
-                ],
-                "size": [   
-                    {
-                        "id" : 1,
-                        "size" : "S"
-                    },         
-                    {
-                        "id" : 2,
-                        "size" : "M"
-                    },
-                    {
-                        "id" : 3,
-                        "size" : "L"
-                    },
-                    {
-                        "id" : 4,
-                        "size" : "XL"
-                    }
-                ]
-            }
-        },{
-            "id": 5,
-            "name": "Áo Chống Nắng Nữ TOKYOLIFE",
-            "price":"20.35",
-            "quality":4.9,
-            "status": "còn hàng",
-            "sold":350,
-            "sale": "mua 2 giảm 10%",
-            "avatar" : "../public/image/aochongnangnuCam.jpg",
-            "shirt" : {
-                "id" : 5,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/aochongnangnuxanh.jpg"
-                },
-                {
-                    "id" : 2,
-                    "color" : "cam",
-                    "image" : "../public/image/aochongnangnuCam.jpg"
+                    "color" : "orange",
+                    "image" : "aochongnangnuCam.jpg"
                 }
                 ],
                 "size": [   
@@ -526,30 +232,30 @@
         },
         {
             "id": 6,
-            "name": "Áo trễ vai bèo tay phồng AQT",
-            "price":"1.35",
+            "name": "AQT puff-sleeve off-shoulder top",
+            "price":"$1.35",
             "quality":4.7,
-            "status": "còn hàng",
+            "status": "still",
             "sold":570,
-            "sale": "giảm 20%",
-            "avatar" : "../public/image/aonu.jpg",
+            "sale": "sale 20%",
+            "image" : "aonu.jpg",
             "shirt" : {
                 "id" : 6,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/aonuWhite.jpg"
+                    "color" : "white",
+                    "image" : "aonuWhite.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "hồng",
-                    "image" : "../public/image/aonuPink.jpg"
+                    "color" : "pink",
+                    "image" : "aonuPink.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "xanh lá cây",
-                    "image" : "../public/image/aonuGreen.jpg"
+                    "color" : "green",
+                    "image" : "aonuGreen.jpg"
                 }
                 ],
                 "size": [   
@@ -574,25 +280,25 @@
         },
         {
             "id": 7,
-            "name": "Quần KAKI ống rộng",
-            "price":"2.65",
+            "name": "Wide leg KAKI pants",
+            "price":"$2.65",
             "quality":4.6,
-            "status": "còn hàng",
+            "status": "still",
             "sold":620,
-            "sale": "giảm 30%",
-            "avatar" : "../public/image/quannam.jpg",
+            "sale": "sale 30%",
+            "image" : "quannam.jpg",
             "pant" : {
                 "id" : 7,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/quannamBe.jpg"
+                    "color" : "white",
+                    "image" : "quannamBe.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/quannamden.jpg"
+                    "color" : "black",
+                    "image" : "quannamden.jpg"
                 }
                 ],
                 "size": [   
@@ -617,25 +323,25 @@
         },
         {
             "id": 8,
-            "name": "Quần Short thun nam nữ Hm1986",
-            "price":"2.39",
+            "name": "Shorts for men and women Hm1986",
+            "price":"$2.39",
             "quality":4.6,
-            "status": "còn hàng",
+            "status": "still",
             "sold":110,
-            "sale": "giảm 10%",
-            "avatar" : "../public/image/quanshort.jpg",
+            "sale": "sale 10%",
+            "image" : "quanshort.jpg",
             "pant" : {
                 "id" : 8,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "xám",
-                    "image" : "../public/image/quanshortxam.jpg"
+                    "color" : "gray",
+                    "image" : "quanshortxam.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/quanshortden.jpg"
+                    "color" : "black",
+                    "image" : "quanshortden.jpg"
                 }
                 ],
                 "size": [   
@@ -660,30 +366,30 @@
         },
         {
             "id": 9,
-            "name": "Quần ống rộng nữ",
-            "price":"3.05",
+            "name": "Women's wide leg pants",
+            "price":"$3.00",
             "quality":4.9,
-            "status": "còn hàng",
+            "status": "still",
             "sold":230,
-            "sale": "giảm 15%",
-            "avatar" : "../public/image/quannu.jpg",
+            "sale": "sale 15%",
+            "image" : "quannu.jpg",
             "pant" : {
                 "id" : 9,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/quannutrang.jpg"
+                    "color" : "white",
+                    "image" : "quannutrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/quannuden.jpg"
+                    "color" : "black",
+                    "image" : "quannuden.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "tím",
-                    "image" : "../public/image/quannutim.jpg"
+                    "color" : "violet",
+                    "image" : "quannutim.jpg"
                 }
                 ],
                 "size": [   
@@ -708,25 +414,25 @@
         },
         {
             "id": 10,
-            "name": "Chân váy thời trang cho Nữ",
-            "price":"4.03",
+            "name": "Fashionable skirts for Women",
+            "price":"$4.00",
             "quality":4.7,
-            "status": "còn hàng",
+            "status": "still",
             "sold":330,
-            "sale": "giảm 12%",
-            "avatar" : "../public/image/chanvay.jpg",
+            "sale": "sale 12%",
+            "image" : "chanvay.jpg",
             "skirt" : {
                 "id" : 10,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/chanvaytrang.jpg"
+                    "color" : "white",
+                    "image" : "chanvaytrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/chanvayden.jpg"
+                    "color" : "black",
+                    "image" : "chanvayden.jpg"
                 }
                 ],
                 "size": [   
@@ -751,30 +457,30 @@
         },
         {
             "id": 11,
-            "name": "Giày Jordan Cổ Thấp Nam Nữ",
-            "price":"9.23",
+            "name": "Jordan Shoe Low Neck Men Women",
+            "price":"$9.23",
             "quality":4.9,
-            "status": "còn hàng",
+            "status": "still",
             "sold":390,
-            "sale": "giảm 15%",
-            "avatar" : "../public/image/giayjd.jpg",
+            "sale": "sale 15%",
+            "image" : "giayjd.jpg",
             "shoes" : {
                 "id" : 11,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "xám",
-                    "image" : "../public/image/giayjdxam.jpg"
+                    "color" : "gray",
+                    "image" : "giayjdxam.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/giayjdden.jpg"
+                    "color" : "black",
+                    "image" : "giayjdden.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/giayjdxanh.jpg"
+                    "color" : "blue",
+                    "image" : "giayjdxanh.jpg"
                 }
                 ],
                 "size": [   
@@ -803,30 +509,30 @@
         },
         {
             "id": 12,
-            "name": "Giày Sneakers basic cho Nữ",
-            "price":"9.35",
+            "name": "Basic Sneakers for Women",
+            "price":"$9.35",
             "quality":4.8,
-            "status": "còn hàng",
+            "status": "still",
             "sold":450,
-            "sale": "giảm 25%",
-            "avatar" : "../public/image/giaynu.jpg",
+            "sale": "sale 25%",
+            "image" : "giaynu.jpg",
             "shoes" : {
                 "id" : 12,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/giaynutrang.jpg"
+                    "color" : "white",
+                    "image" : "giaynutrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/giaynuden.jpg"
+                    "color" : "black",
+                    "image" : "giaynuden.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/giayjdxanh.jpg"
+                    "color" : "blue",
+                    "image" : "giayjdxanh.jpg"
                 }
                 ],
                 "size": [   
@@ -855,30 +561,30 @@
         },
         {
             "id": 13,
-            "name": "Giày Jordan Cổ Thấp Nam Nữ",
-            "price":"9.75",
+            "name": "Jordan Shoe Low Neck Men Women",
+            "price":"$9.75",
             "quality":4.9,
-            "status": "còn hàng",
+            "status": "still",
             "sold":390,
-            "sale": "giảm 15%",
-            "avatar" : "../public/image/giayjd.jpg",
+            "sale": "sale 15%",
+            "image" : "giayjd.jpg",
             "shoes" : {
                 "id" : 13,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "xám",
-                    "image" : "../public/image/giayjdxam.jpg"
+                    "color" : "gray",
+                    "image" : "giayjdxam.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/giayjdden.jpg"
+                    "color" : "black",
+                    "image" : "giayjdden.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "xanh da trời",
-                    "image" : "../public/image/giayjdxanh.jpg"
+                    "color" : "blue",
+                    "image" : "giayjdxanh.jpg"
                 }
                 ],
                 "size": [   
@@ -907,25 +613,25 @@
         },
         {
             "id": 14,
-            "name": "Giày thể thao nữ kẻ caro Wosa",
-            "price":"10",
+            "name": "Wosa checkered women's sports shoes",
+            "price":"$10.00",
             "quality":4.8,
-            "status": "còn hàng",
+            "status": "still",
             "sold":390,
-            "sale": "giảm 20%",
-            "avatar" : "../public/image/giaycaro.jpg",
+            "sale": "sale 20%",
+            "image" : "giaycaro.jpg",
             "shoes" : {
                 "id" : 14,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/giaycarotrang.jpg"
+                    "color" : "white",
+                    "image" : "giaycarotrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/giaycaroden.jpg"
+                    "color" : "black",
+                    "image" : "giaycaroden.jpg"
                 }
                 ],
                 "size": [   
@@ -954,35 +660,35 @@
         },
         {
             "id": 15,
-            "name": "Giày thể thao Nam Nữ gucci",
-            "price":"11.02",
+            "name": "Gucci Men's and Women's Sports Shoes",
+            "price":"$11.00",
             "quality":4.8,
-            "status": "hết hàng",
+            "status": "Out of stock",
             "sold":490,
-            "sale": "giảm 25%",
-            "avatar" : "../public/image/giaygucci.jpg",
+            "sale": "sale 25%",
+            "image" : "giaygucci.jpg",
             "shoes" : {
                 "id" : 15,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trơn",
-                    "image" : "../public/image/giayguccitron.jpg"
+                    "color" : "slippery",
+                    "image" : "giayguccitron.jpg"
                 },
                 {
                     "id" : 2,
                     "color" : "NY",
-                    "image" : "../public/image/giayNY.jpg"
+                    "image" : "giayNY.jpg"
                 },
                 {
                     "id" : 3,
-                    "color" : "Chữ",
-                    "image" : "../public/image/giayguccido.jpg"
+                    "color" : "font",
+                    "image" : "giayguccido.jpg"
                 },
                 {
                     "id" : 4,
-                    "color" : "Môi",
-                    "image" : "../public/image/giayguccimoi.jpg"
+                    "color" : "lip",
+                    "image" : "giayguccimoi.jpg"
                 }
                 ],
                 "size": [   
@@ -1011,25 +717,35 @@
         },
         {
             "id": 16,
-            "name": "Mũ lưỡi trai thêu chữ P",
-            "price":"2.69",
+            "name": "Cap embroidered with letter P",
+            "price":"$2.69",
             "quality":4.9,
-            "status": "hết hàng",
+            "status": "still",
             "sold":60,
-            "sale": "giảm 10%",
-            "avatar" : "../public/image/mubasic.jpg",
+            "sale": "sale 10%",
+            "image" : "muP.jpg",
             "hat" : {
                 "id" : 16,
                 "color" :[ 
                 {
                     "id" : 1,
                     "color" : "white",
-                    "image" : "../public/image/mubasictrang.jpg"
+                    "image" : "muPtrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/muden.jpg"
+                    "color" : "black",
+                    "image" : "muPden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "yellow",
+                    "image" : "muPvang.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "pink",
+                    "image" : "muPHong.jpg"
                 }
                 ],
                 "size": "oversize"
@@ -1037,28 +753,249 @@
         },
         {
             "id": 17,
-            "name": "Mũ lưỡi trai thêu logo NY",
-            "price":"2.41",
+            "name": "NY logo embroidered cap",
+            "price":"$2.41",
             "quality":4.7,
-            "status": "còn hàng",
+            "status": "still",
             "sold":120,
-            "sale": "giảm 5%",
-            "avatar" : "../public/image/muNY.jpg",
+            "sale": "sale 5%",
+            "image" : "muNY.jpg",
             "hat" : {
                 "id" : 17,
                 "color" :[ 
                 {
                     "id" : 1,
-                    "color" : "trắng",
-                    "image" : "../public/image/muNYtrang.jpg"
+                    "color" : "white",
+                    "image" : "muNYtrang.jpg"
                 },
                 {
                     "id" : 2,
-                    "color" : "đen",
-                    "image" : "../public/image/muNYden.jpg"
+                    "color" : "black",
+                    "image" : "muNYden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "pink",
+                    "image" : "muNYhong.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "xanh",
+                    "image" : "muNYxanh.jpg"
                 }
                 ],
                 "size": "oversize"
+            }
+        },
+        {
+            "id": 18,
+            "name": "Nekosg Men's and Women's Elastic Shorts",
+            "price":"$1.39",
+            "quality":4.6,
+            "status": "still",
+            "sold":110,
+            "sale": "sale 10%",
+            "image" : "quanshort2.jpg",
+            "pant" : {
+                "id" : 18,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "brown",
+                    "image" : "quanshort2nau.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "quanshort2den.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "white",
+                    "image" : "quanshort2trang.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "blue",
+                    "image" : "quanshort2xanh.jpg"
+                },
+                {
+                    "id" : 5,
+                    "color" : "gray",
+                    "image" : "quanshort2xam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 19,
+            "name": "KAKI BASIC PANTS Unisex Pants",
+            "price":"$3.55",
+            "quality":4.8,
+            "status": "still",
+            "sold":620,
+            "sale": "sale 30%",
+            "image" : "quankaki.jpg",
+            "pant" : {
+                "id" : 19,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "quankakitrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "black",
+                    "image" : "quankakiden.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "matte brown",
+                    "image" : "quankakitan.jpg"
+                },
+                {
+                    "id" : 4,
+                    "color" : "light brown",
+                    "image" : "quankakinau.jpg"
+                },
+                {
+                    "id" : 5,
+                    "color" : "dark brown",
+                    "image" : "quankakinaudam.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 20,
+            "name": "Ulzzang Women's Shoes Checkered pattern ",
+            "price":"$7.00",
+            "quality":4.8,
+            "status": "still",
+            "sold":390,
+            "sale": "sale 20%",
+            "image" : "giaycaro2.jpg",
+            "shoes" : {
+                "id" : 20,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "giaycaro2trang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "green",
+                    "image" : "giaycaro2xanh.jpg"
+                },
+                {
+                    "id" : 3,
+                    "color" : "pink",
+                    "image" : "giaycaro2hong.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "36"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "37"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "38"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "39"
+                    },
+                    {
+                        "id" : 5,
+                        "size" : "40"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 21,
+            "name": "Ulzzang dress for Women",
+            "price":"$5.00",
+            "quality":4.8,
+            "status": "still",
+            "sold":330,
+            "sale": "sale 12%",
+            "image" : "vay.jpg",
+            "skirt" : {
+                "id" : 21,
+                "color" :[ 
+                {
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "vaytrang.jpg"
+                },
+                {
+                    "id" : 2,
+                    "color" : "blue",
+                    "image" : "vayxanh.jpg"
+                }
+                ],
+                "size": [   
+                    {
+                        "id" : 1,
+                        "size" : "S"
+                    },         
+                    {
+                        "id" : 2,
+                        "size" : "M"
+                    },
+                    {
+                        "id" : 3,
+                        "size" : "L"
+                    },
+                    {
+                        "id" : 4,
+                        "size" : "XL"
+                    }
+                ]
             }
         }
     ]

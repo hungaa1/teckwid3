@@ -13,13 +13,14 @@ let check = false;
 let dataN;
 let productType = "shirt";
 let number;
-http.open("GET", "../data/data.json", true);
+http.open("GET", "./data/data.json", true);
 http.send();
 http.onreadystatechange = function () {
   if (this.readyState == 4) {
-    if (JSON.parse(this.responseText).product.hasOwnProperty(productType)) {
-      console.log("ok");
-    }
+    // if (JSON.parse(this.responseText).product.hasOwnProperty(productType)) {
+    //   console.log("ok");
+    // }
+    console.log(this.responseText);
     dataN = JSON.parse(this.responseText).product;
 
     handleData(JSON.parse(this.responseText).product);
