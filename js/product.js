@@ -6,6 +6,8 @@ const product = $(".product");
 const productDetail = $(".productDetail");
 const background = $(".background");
 const options = $$(".sub-menu_item");
+const input = $("input[name=query]");
+const resultsBar = $(".results-bar");
 console.log(options);
 let check = false;
 let dataN;
@@ -61,7 +63,7 @@ function handleData(data) {
                               <p data-index='${valueProduct.id}'>${valueProduct.name}</p>
                           </div>
                           <div class="price">
-                            <sup>đ</sup>${valueProduct.price}
+                            <sup>$</sup>${valueProduct.price}
                           </div>
                         </div>
 
@@ -128,4 +130,24 @@ product.onclick = function (e) {
       }
     });
   }
+};
+input.oninput = function (e) {
+  dataN.map((elm) => {
+    if (elm.name == e.target.value) {
+      const div = ` <div class="search-results">
+                      <img src="${elm.avatar}" alt="${elm.name}"/>
+                      <div class="information-search">
+                        <span class="product-Name">${elm.name}</span>
+                        <span class="product-price"><sup>$</sup>${elm.price}</span>
+                      </div>
+                      <span class="product-status">still</span>
+                    </div>`;
+
+      resultsBar.insertAdjacentHTML("beforeend", div);
+    }
+
+    if (e.target.value === "") {
+      resultsBar.innerHTML = "";
+    }
+  });
 };
