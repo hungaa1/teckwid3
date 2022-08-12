@@ -96,8 +96,8 @@ function handleData(data) {
     if (valueProduct.hasOwnProperty(productType)) {
       number = index;
       let div = `<div class="allResults">
-                 
                     <div class='results' data-index='${ valueProduct.id }'>
+                    <span class="saleProduct">${ valueProduct.sale }</span>
                      <span class='hoverTitle'>${ valueProduct.name }</span>
                       <div class='productAvatar'>
                         <img data-index='${ valueProduct.id }' src='${ valueProduct.image }' alt='${ valueProduct.name }'/>
@@ -106,8 +106,7 @@ function handleData(data) {
                       <div class="productOverview">
                         <div class="information">
                           <div class='productName'>
-                             ${ valueProduct.name }
-                            
+                             ${ valueProduct.name }          
                           </div>
                           <div class="price">
                             <sup>$</sup>${ valueProduct.price }

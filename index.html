@@ -34,7 +34,7 @@
   </head>
   <body>
     <header>
-       <div class="container" id="home">
+      <div class="container" id="home">
         <div class="row">
           <div class="header">
             <div class="header-main">
@@ -57,7 +57,9 @@
                       name="query"
                       placeholder="Search product"
                     />
-                    <span class="closeSearch"><i class="fa-solid fa-xmark"></i></span>
+                    <span class="closeSearch"
+                      ><i class="fa-solid fa-xmark"></i
+                    ></span>
                     <div class="results-bar"></div>
 
                     <div
@@ -102,26 +104,41 @@
                     </div>
                     <div class="category-prd d-none position-absolute">
                       <ul class="list-group">
-                        <li class="category-prd_item list-group-item border-0 type">
+                        <a
+                          href="#product"
+                          class="category-prd_item list-group-item border-0 type"
+                        >
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span">Shirt</span>
-                        </li>
-                        <li class="category-prd_item list-group-item border-0 type">
+                          Shirt
+                        </a>
+                        <a
+                          href="#product"
+                          class="category-prd_item list-group-item border-0 type"
+                        >
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span>Pant</span>
-                        </li>
-                        <li class="category-prd_item list-group-item border-0 type">
+                          Pant
+                        </a>
+                        <a
+                          href="#product"
+                          class="category-prd_item list-group-item border-0 type"
+                        >
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span >Skirt</span>
-                        </li>
-                        <li class="category-prd_item list-group-item border-0 type">
+                          Skirt
+                        </a>
+                        <a
+                          href="#product"
+                          class="category-prd_item list-group-item border-0 type"
+                        >
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span >Shoes</span>
-                        </li>
-                        <li class="category-prd_item list-group-item border-0 type">
+                          Shoes
+                        </a>
+                        <a
+                          href="#product"
+                          class="category-prd_item list-group-item border-0 type"
+                        >
                           <i class="fa-solid fa-caret-right pe-1"></i>
-                          <span >Hat</span>
-                        </li>
+                          Hat
+                        </a>
                       </ul>
                     </div>
                   </div>
@@ -145,29 +162,36 @@
                         </a>
                         <div class="sub-menu position-absolute">
                           <ul class="list-group">
-                            <li
-                              class="sub-menu_item list-group-item border-0 border-bottom"
+                            <a
+                              href="#product"
+                              class="sub-menu_item list-group-item border-0 border-bottom pro"
                             >
-                              <span>Shirt</span>
-                            </li>
-                            <li
-                              class="sub-menu_item list-group-item border-0 border-bottom"
+                              Shirt
+                            </a>
+                            <a
+                              href="#product"
+                              class="sub-menu_item list-group-item border-0 border-bottom pro"
                             >
-                              <span>Pant</span>
-                            </li>
-                            <li
-                              class="sub-menu_item list-group-item border-0 border-bottom"
+                              Pant
+                            </a>
+                            <a
+                              href="#product"
+                              class="sub-menu_item list-group-item border-0 border-bottom pro"
                             >
-                              <span>Skirt</span>
-                            </li>
-                            <li
-                              class="sub-menu_item list-group-item border-0 border-bottom"
+                              Skirt
+                            </a>
+                            <a
+                              href="#product"
+                              class="sub-menu_item list-group-item border-0 border-bottom pro"
                             >
-                              <span>Shoes</span>
-                            </li>
-                            <li class="sub-menu_item list-group-item border-0">
-                              <span>Hat</span>
-                            </li>
+                              Shoes
+                            </a>
+                            <a
+                              href="#product"
+                              class="sub-menu_item list-group-item border-0 pro"
+                            >
+                              Hat
+                            </a>
                           </ul>
                         </div>
                       </li>
@@ -368,26 +392,25 @@
       </div>
     </footer>
   </body>
-  
-  <script >
-    
-let checkClick = 1;
-console.log('ok');
-$(".category-icon").click((e) => {
-  console.log(e.target);
-  if (checkClick == 1) {
-    console.log(1);
-    document.querySelector(".category-prd").setAttribute(
-      "style",
-      "display: block !important; z-index: 1;"
-    );
-    checkClick = 0;
-  } else {
-    document.querySelector(".category-prd").setAttribute("style", "display: none !important;");
-    checkClick = 1;
-  }
-});
 
+  <script>
+    let checkClick = 1;
+    console.log("ok");
+    $(".category-icon").click((e) => {
+      console.log(e.target);
+      if (checkClick == 1) {
+        console.log(1);
+        document
+          .querySelector(".category-prd")
+          .setAttribute("style", "display: block !important; z-index: 1;");
+        checkClick = 0;
+      } else {
+        document
+          .querySelector(".category-prd")
+          .setAttribute("style", "display: none !important;");
+        checkClick = 1;
+      }
+    });
   </script>
   <script src="./js/product.js"></script>
 </html>
