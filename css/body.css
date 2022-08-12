@@ -25,7 +25,7 @@ html {
 
 @font-face {
     font-family: Poppins;
-    src: url("../../public//font/Poppins-Light.ttf");
+    src: url("../public/font/Poppins-Light.ttf");
 }
 
 @font-face {
@@ -142,7 +142,7 @@ html {
     margin: 20px auto;
     padding: 25px 30px;
     width: 100%;
-    justify-content: end;
+    justify-content: center;
     position: relative;
 }
 
@@ -268,14 +268,15 @@ html {
 
 .submitProduct .buyProduct,
 .addCart {
-    padding: 2px;
-    margin: 0 5px;
+    padding: 2px 7px;
+    margin: 0 3px;
     border-radius: 5px;
-    border: 1px solid rgb(135 135 135);
     color: #4d4d4d;
     cursor: pointer;
     font-size: 13px;
     text-align: center;
+    background-color: rgb(255 215 215);
+    color: #535754;
 }
 
 .addCart {
@@ -307,7 +308,7 @@ html {
 }
 
 :is(.buyProduct, .addCart):hover {
-    background-color: rgb(212 210 210);
+    background-color: rgb(255 177 177 / 86%);
 }
 
 .showDetails {
