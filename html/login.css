@@ -26,9 +26,7 @@
     background: transparent;
 }
 
-.background__homepage>a>span {
-    color: #fff;
-}
+
 
 .background__homepage>a>span:hover {
     color: #ff8417;

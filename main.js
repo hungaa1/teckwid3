@@ -9,15 +9,17 @@ let check2 = 0;
 let check3 = 0; let pr = 0;
 const eg = query('#pri')
 console.log(eg);
-function addCarts(data) {
+function addCarts(data, getItem) {
 
     if (check2 != data.id) {
-        // pr += data.price
-        // eg.innerHTML = `${ getItem.length }: <sup>$</sup>${ pr }`
-        d(data)
+        if (getItem) {
+            pr += parseFloat(data.price)
+            eg.innerHTML = `${ getItem.length }: <sup>$</sup>${ pr }`
+        }
+
         check2 = data.id
-        function d(data) {
-            const div = `<div class="cart-content_lst">
+
+        const div = `<div class="cart-content_lst">
                                                 <div class="closeCart" data-index='${ data.id }'>
                                                     <i class="fa-solid fa-xmark" data-index='${ data.id }'></i>
                                                 </div>
@@ -30,15 +32,15 @@ function addCarts(data) {
                                                     <div class="nameProductCart">
                                                     ${ data.name }
                                                     </div>
-                                                    <div class="priceProductCart"><sup>$</sup>${ data.price }</div>
+                                                    <div class="priceProductCart"><sup>$</sup>${ data.price }<span >  x${ data.quantity }</span></div>
                                                 </div>
                                                 </div>
                                             </div>`
-            ListCart.insertAdjacentHTML("beforeend", div);
-            return div;
+        ListCart.insertAdjacentHTML("beforeend", div);
 
 
-        }
+
+
         const quantityP = query(".position-absolute.top-50.start-50.translate-middle.fw-semibold")
         const getdataCart = JSON.parse(localStorage.getItem("cart"))
 
@@ -46,11 +48,16 @@ function addCarts(data) {
         const arr = []
         const buy = query('#payment')
         const code = []
-        buy.onclick = function () {
-            alert('Ordered successfully')
-            localStorage.clear();
-            ListCart.innerHTML = ''
-            quantityP.innerHTML = ''
+        if (ListCart.innerText) {
+            buy.onclick = function () {
+                alert('Ordered successfully')
+                localStorage.clear();
+                ListCart.innerHTML = ''
+                quantityP.innerHTML = 0
+                check1 = []
+            }
+        } else {
+            alert('not is product')
         }
 
         Array.from(closeCartd).map((closeC) => {
@@ -87,10 +94,10 @@ function addCarts(data) {
                                                 </div>
                                                 </div>
                                             </div>`
-                                    code.push(div)
+                                    ListCart.insertAdjacentHTML("beforeend", div)
                                 })
 
-                                ListCart.innerHTML = code.join('')
+
 
                             }
 
@@ -165,15 +172,10 @@ $(document).ready(function () {
                         const getItem = JSON.parse(localStorage.getItem('cart'))
                         if (getItem) {
                             getItem.map((data) => {
-                                if (check1.includes(`${ data.id }`) && check3 != 0) {
+                                if (check1.includes(`${ data.id }`)) {
 
-                                    console.log('ds', check3);
-                                    return
 
                                 } else {
-                                    console.log(check1, check3);
-                                    console.log('ds');
-                                    check3 = 1
                                     addCarts(data, getItem)
 
 
@@ -349,7 +351,7 @@ $(document).ready(function () {
                                                 localStorage.setItem('cart', JSON.stringify(array));
                                             } else {
 
-                                                console.log(check0);
+
                                                 if (check0.includes(`${ elmP.id }`)) {
                                                     return
 
@@ -379,7 +381,7 @@ $(document).ready(function () {
                                 }
                             })
 
-                            if (check1.length > 0) {
+                            if (check1) {
                                 const getdataCart = JSON.parse(localStorage.getItem("cart")) || []
                                 getdataCart.map((data) => {
                                     if (check1.includes(`${ data.id }`)) {
@@ -387,7 +389,7 @@ $(document).ready(function () {
                                         return
 
                                     } else {
-                                        addCarts(data)
+                                        addCarts(data, getdataCart)
                                         check1.push(`${ data.id }`)
                                         console.log(check1);
 

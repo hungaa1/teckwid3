@@ -2,8 +2,8 @@ body {
     box-sizing: border-box;
 }
 
-.backgroundfe {
-    background-image: url(/public/image/2hand.jpg);
+.backgroundff {
+    background-image: url(../public/image/2hand.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -16,7 +16,6 @@ body {
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
-    color: #fff;
     margin: 0;
 
 }
@@ -30,8 +29,13 @@ body {
     background: transparent;
 }
 
-.background__homepage>a>span {
-    color: #fff;
+.map-container-google-1sd {
+    height: 532px !important;
+    width: 941px !important;
+}
+
+.container {
+    width: 1700px !important;
 }
 
 .background__homepage>a>span:hover {
