@@ -2,9 +2,10 @@
     "product" : [
         {
             "id": 1,
-            "name": "YODY Men's Wind Jacket",
+
+"quantity": 1,            "name": "YODY Men's Wind Jacket",
             "price":"11.00",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":290,
             "sale": "Buy 2 get $0.8 off",
@@ -56,7 +57,9 @@
         },
         {
             "id": 2,
-            "name": "Unisex T-shirt Men Women TEEZ",
+
+"quantity": 1,      
+      "name": "Unisex T-shirt Men Women TEEZ",
             "price":"2.79",
             "quality":4.0,
             "status": "still",
@@ -110,7 +113,8 @@
         },
         {
             "id": 3,
-            "name": "Unisex CAPMAN basic T-shirt",
+"quantity": 1,      
+      "name": "Unisex CAPMAN basic T-shirt",
             "price":"3.99",
             "quality":4.0,
             "status": "still",
@@ -165,7 +169,8 @@
         },
         {
             "id": 4,
-            "name": "Men's and Women's Seery Polo Shirts",
+
+"quantity": 1,            "name": "Men's and Women's Seery Polo Shirts",
             "price":"4.02",
             "quality":4.0,
             "status": "still",
@@ -215,7 +220,8 @@
         },
         {
             "id": 5,
-            "name": "TOKYOLIFE Women's Sunscreen",
+
+"quantity": 1,            "name": "TOKYOLIFE Women's Sunscreen",
             "price":"20.35",
             "quality":4.0,
             "status": "still",
@@ -266,7 +272,8 @@
         },
         {
             "id": 6,
-            "name": "AQT puff-sleeve off-shoulder top",
+
+"quantity": 1,            "name": "AQT puff-sleeve off-shoulder top",
             "price":"1.35",
             "quality":4.0,
             "status": "still",
@@ -320,7 +327,8 @@
         },
         {
             "id": 7,
-            "name": "Wide leg KAKI pants",
+
+"quantity": 1,            "name": "Wide leg KAKI pants",
             "price":"2.65",
             "quality":4.0,
             "status": "still",
@@ -369,7 +377,8 @@
         },
         {
             "id": 8,
-            "name": "Shorts for men and women Hm1986",
+
+"quantity": 1,            "name": "Shorts for men and women Hm1986",
             "price":"2.39",
             "quality":4.0,
             "status": "still",
@@ -419,7 +428,8 @@
         },
         {
             "id": 9,
-            "name": "Women's wide leg pants",
+
+"quantity": 1,            "name": "Women's wide leg pants",
             "price":"3.00",
             "quality":4.0,
             "status": "still",
@@ -473,6 +483,7 @@
         },
         {
             "id": 10,
+            "quantity": 1,
             "name": "Fashionable skirts for Women",
             "price":"4.00",
             "quality":4.0,
@@ -522,6 +533,7 @@
         },
         {
             "id": 11,
+            "quantity": 1,
             "name": "Jordan Shoe Low Neck Men Women",
             "price":"9.23",
             "quality":4.0,
@@ -580,6 +592,7 @@
         },
         {
             "id": 12,
+            "quantity": 1,
             "name": "Basic Sneakers for Women",
             "price":"9.35",
             "quality":4.0,
@@ -639,6 +652,7 @@
         },
         {
             "id": 13,
+            "quantity": 1,
             "name": "Jordan Shoe Low Neck Men Women",
             "price":"9.75",
             "quality":4.0,
@@ -696,6 +710,7 @@
         },
         {
             "id": 14,
+            "quantity": 1,
             "name": "Wosa checkered women's sports shoes",
             "price":"10.00",
             "quality":4.0,
@@ -748,6 +763,7 @@
         },
         {
             "id": 15,
+            "quantity": 1,
             "name": "Gucci Men's and Women's Sports Shoes",
             "price":"11.00",
             "quality":4.0,
@@ -810,6 +826,7 @@
         },
         {
             "id": 16,
+            "quantity": 1,
             "name": "Cap embroidered with letter P",
             "price":"2.69",
             "quality":4.0,
@@ -851,6 +868,7 @@
         },
         {
             "id": 17,
+            "quantity": 1,
             "name": "NY logo embroidered cap",
             "price":"2.41",
             "quality":4.0,
@@ -894,6 +912,7 @@
         },
         {
             "id": 18,
+            "quantity": 1,
             "name": "Nekosg Men's and Women's Elastic Shorts",
             "price":"1.39",
             "quality":4.0,
@@ -958,21 +977,23 @@
         },
         {
             "id": 19,
+            "quantity": 1,
             "name": "KAKI BASIC PANTS Unisex Pants",
             "price":"3.55",
-            "quality":4.0,
+            "quality":3.0,
             "status": "still",
             "sold":620,
             "sale": "sale 30%",
             "image" : "./public/image/imagesProduct/quankaki.jpg",
             "pant" : {
                 "id" : 19,
-                "color" :[ 
-                {
-                    "id" : 1,
-                    "color" : "white",
-                    "image" : "./public/image/imagesProduct/quankakitrang.jpg"
+                "color" :[ {
+                    "id" : 6,
+                    "color" : "dark brown",
+                    "image" : "./public/image/imagesProduct/quankaki.jpg"
+
                 },
+                
                 {
                     "id" : 2,
                     "color" : "black",
@@ -993,10 +1014,9 @@
                     "color" : "dark brown",
                     "image" : "./public/image/imagesProduct/quankakinaudam.jpg"
                 },{
-                    "id" : 6,
-                    "color" : "dark brown",
-                    "image" : "./public/image/imagesProduct/quankaki.jpg"
-
+                    "id" : 1,
+                    "color" : "white",
+                    "image" : "./public/image/imagesProduct/quankakitrang.jpg"
                 }
                 ],
                 "size": [   
@@ -1021,9 +1041,10 @@
         },
         {
             "id": 20,
+            "quantity": 1,
             "name": "Ulzzang Women's Shoes Checkered pattern ",
             "price":"7.00",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":390,
             "sale": "sale 20%",
@@ -1078,9 +1099,10 @@
         },
         {
             "id": 21,
+            "quantity": 1,
             "name": "Ulzzang dress for Women",
             "price":"5.00",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":330,
             "sale": "sale 12%",
@@ -1127,6 +1149,7 @@
         },
         {
             "id": 22,
+            "quantity": 1,
             "name": "Culottes Ulzzang Loose Pants",
             "price":"4.00",
             "quality":4.0,
@@ -1180,6 +1203,7 @@
         },
         {
             "id": 23,
+            "quantity": 1,
             "name": "Women's polo shirt",
             "price":"3.00",
             "quality":4.0,
@@ -1233,9 +1257,10 @@
         },
         {
             "id": 24,
+            "quantity": 1,
             "name": "Women's Shorts Folding Bears",
             "price":"2.39",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":130,
             "sale": "sale 12%",
@@ -1292,9 +1317,10 @@
         },
         {
             "id": 25,
+            "quantity": 1,
             "name": "Caps Embroidered LA",
             "price":"2.00",
-            "quality":4.0,
+            "quality":3.0,
             "status": "still",
             "sold":235,
             "sale": "sale 10%",
@@ -1328,6 +1354,7 @@
         },
         {
             "id": 26,
+            "quantity": 1,
             "name": "High-end women's fashion pleated short tennis skirt",
             "price":"3.00",
             "quality":4.0,
@@ -1387,6 +1414,7 @@
         },
         {
             "id": 27,
+            "quantity": 1,
             "name": "Korean Fashion Plaid Men's Long Pants",
             "price":"3.40",
             "quality":4.0,
@@ -1441,9 +1469,10 @@
         },
         {
             "id": 28,
+            "quantity": 1,
             "name": "Sleeveless Sweater Basic Vender Ss1",
             "price":"3.29",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":250,
             "sale": "sale 20%",
@@ -1469,7 +1498,7 @@
                     {
                         "id" : 4,
                         "color" : "violet",
-                        "image" : "./public/image/imagesProduct/aophong2tim.jpg"
+                        "image" : "./public/image/imagesProduct/vender.jpg"
                     },
                      {
                         "id" : 5,
@@ -1499,9 +1528,10 @@
         },
         {
             "id": 29,
+            "quantity": 1,
             "name": "Men's skinny jeans",
             "price":"2.69",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":470,
             "sale": "sale 18%",
@@ -1552,9 +1582,10 @@
         },
         {
             "id": 30,
+            "quantity": 1,
             "name": "Super hot shirt 2022",
             "price":"3.59",
-            "quality":4.0,
+            "quality":5.0,
             "status": "still",
             "sold":360,
             "sale": "sale 18%",

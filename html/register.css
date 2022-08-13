@@ -1,0 +1,101 @@
+.background-register {
+    background-image: url(../public/image/2hand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 60px 0 80px 0;
+}
+
+.background__info__title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    margin: 0;
+
+}
+
+.background__homepage {
+    text-align: center;
+}
+
+.background__homepage>a {
+    text-decoration: none;
+    background: transparent;
+}
+
+.background__homepage>a>span {
+    color: #fff;
+}
+
+.background__homepage>a>span:hover {
+    color: #ff8417;
+}
+
+.background__homepage>.fa {
+    color: #fff;
+    padding: 0px 5px;
+}
+
+.background__homepage>.intro__title {
+    color: #ff8417;
+}
+
+#register {
+    max-width: 500px;
+    padding: 10px;
+    background: #84fab0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.margin-register {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#register .error {
+    text-align: center;
+    color: red;
+    font-size: 1rem;
+}
+
+#register .regis-title h3 {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #f7941d;
+
+}
+
+#register .agree {
+    width: 25px;
+    height: 25px;
+}
+
+.checkbox label {
+    height: 25px;
+    line-height: 25px;
+    font-size: 1.25rem;
+    font: bold;
+    align-items: center;
+    color: #6c757d;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    margin-top: 15px;
+}
+
+#register .input {
+    margin-top: 10px;
+}
+
+#register .form-group a {
+    text-decoration: none;
+    margin-top: 5px;
+}

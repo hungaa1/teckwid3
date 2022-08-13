@@ -33,10 +33,20 @@ html {
     src: url("../../public/font/NotoSans-ExtraBold.ttf");
 }
 
+@font-face {
+    font-family: AveriaLibre;
+    src: url("../public/font/AveriaLibre-Bold.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    margin-bottom: 300px;
 }
 
 .slide {
@@ -52,7 +62,7 @@ html {
 }
 
 .showDetails .image {
-    width: 333px;
+    width: 310px;
     display: block;
     position: relative;
     overflow: hidden;
@@ -76,7 +86,7 @@ html {
 }
 
 .productDetail .order {
-    width: 255px;
+    width: 278px;
     padding: 2px 10px 10px 10px;
 }
 
@@ -219,6 +229,7 @@ html {
     margin: 0;
 }
 
+
 .results .hoverTitle {
     display: none;
     position: absolute;
@@ -228,6 +239,7 @@ html {
     z-index: 1;
     background-color: #fff;
     font-family: "ltims", sans-serif;
+    border-top-left-radius: 10px;
 }
 
 .productName:hover .hoverTilte {
@@ -255,6 +267,16 @@ html {
     margin: 0 0 4px 0;
 }
 
+.order .productName {
+    margin: 15px 0px;
+    font-family: 'AveriaLibre', sans-serif;
+}
+
+.star span {
+    margin-left: 80px;
+    color: rgb(252 110 110);
+}
+
 .price sup {
     color: #ff0000bd;
 }
@@ -277,6 +299,15 @@ html {
     text-align: center;
     background-color: rgb(255 215 215);
     color: #535754;
+}
+
+.buyProduct {
+    background-color: rgb(220 220 220) !important;
+
+}
+
+.buyProduct:hover {
+    background-color: rgb(202, 199, 199) !important;
 }
 
 .addCart {
@@ -336,7 +367,7 @@ html {
 
 .resultColor {
     display: flex;
-    width: 333px;
+    width: 309px;
     height: 79px;
     align-items: center;
     overflow-y: overlay;
@@ -374,18 +405,108 @@ html {
     margin: 0;
 }
 
-.saleProduct {
+.saleProductHome {
     position: absolute;
     z-index: 1;
-    background-color: #da4444;
+    background-color: #e86f6f;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    top: 12px;
-    left: 12px;
+    top: 13px;
+    left: 11px;
     font-size: 12px;
     color: #fff;
     padding: 0 5px;
-    border-top-left-radius: 51px;
+    border-top-left-radius: 53px;
+    font-family: 'AveriaLibre', sans-serif;
+
+}
+
+.sizeProduct {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0
+}
+
+.sizePr {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 13px;
+    background-color: rgb(226, 225, 225);
+    cursor: pointer;
+}
+
+.sizePr:hover {
+    background-color: rgb(189, 188, 188);
+}
+
+.requierBuy {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.requierBuy button {
+    border: 0;
+    padding: 5px 30px;
+    border-radius: 6px;
+    background-color: #87c3cb;
+    color: #1e1b1b;
+}
+
+/* // Ticker */
+.ticker {
+    width: fit-content;
+    padding: 20px;
+    background: transparent;
+    opacity: .8;
+    position: fixed;
+    bottom: 0px;
+    right: 0px
+}
+
+.clock {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    color: rgb(10, 10, 10);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#Date {
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    text-shadow: 0 0 5px #00c6ff;
+}
+
+.ultime {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.ultime>li {
+    display: inline;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'BebasNeueRegular', Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 5px #00c6ff;
+}
+
+.allColor {
+    width: 309px;
+    overflow-x: scroll;
 }

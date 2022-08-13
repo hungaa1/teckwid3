@@ -1,166 +1,211 @@
+body {
+    margin: unset;
+}
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: unset;
     padding: unset;
 }
-*{
+
+* {
     font-size: 1rem;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-:root{
+
+:root {
     --back-color: #f7941d;
 }
 
 /* Animations  */
-@keyframes rotateImg{
-    from{
+@keyframes rotateImg {
+    from {
         transform: rotateY(0deg);
     }
-    to{
+
+    to {
         transform: rotateY(360deg);
     }
 }
 
-@keyframes rotateImgBack{
-    from{
+@keyframes rotateImgBack {
+    from {
         transform: rotateY(360deg);
     }
-    to{
+
+    to {
         transform: rotateY(0deg);
     }
 }
 
-.imgHover:hover img{
+.imgHover:hover img {
     animation: rotateImg .5s forwards;
     transition: all linear;
 }
-.imgHoverBack:hover img{
+
+.imgHoverBack:hover img {
     animation: rotateImgBack .5s forwards;
     transition: all linear;
 }
 
-.footer{
+.footer {
     margin: 0px;
 }
-.policy{
+
+.footer-title {
+    margin: 20px 0px;
+}
+
+.policy {
     background-color: var(--back-color);
 }
-.img-policy{
+
+.img-policy {
     width: 60px;
     height: 60px;
 }
 
-.policy-tranport , .policy-support,.policy-return,.policy-price {
+.policy-tranport,
+.policy-support,
+.policy-return,
+.policy-price {
     padding: 20px;
     box-sizing: border-box;
 }
-.tranport-content,.support-content,.return-content,.price-content{
+
+.tranport-content,
+.support-content,
+.return-content,
+.price-content {
     margin-left: 10px;
     box-sizing: border-box;
     margin-bottom: 0px;
     color: white;
-    font-size : 0,9375rem;
+    font-size: 0, 9375rem;
 }
-/* .footer-title{
-    background-color: #f7f7f7;
-} */
-.footer-content{
-    margin:unset;
+
+.footer-content {
+    margin: unset;
     padding: 20px;
     box-sizing: border-box;
 
 }
-.logo{
+
+.logo {
     width: 150px;
 }
-.footer-logo-content div{
+
+.footer-logo-content div {
     font-size: 0.85rem;
+    padding: 5px 0px;
 }
+
 .footer-logo-content div a {
     text-decoration: none;
     color: black;
     font-size: 0.85rem;
 }
-.footer-logo-content div a:hover{
+
+.footer-logo-content div a:hover {
     color: #f7941d;
 }
-.footer-about-us h3{
+
+.footer-about-us h3 {
     color: #f7941d;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 1rem;
 }
+
 .footer-about-us .list-about-us {
-    padding: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
 }
-.footer-about-us .list-about-us a{
+
+.footer-about-us .list-about-us a {
     text-decoration: none;
     color: #252525;
     font-size: 0.75;
     font-family: 'Product-sans-serif';
 }
-.footer-about-us .list-about-us a:hover{
+
+.footer-about-us .list-about-us a:hover {
     color: #f7941d;
 
 }
-.footer-content-support h3{
+
+.footer-content-support h3 {
     color: #f7941d;
     margin-bottom: 30px;
     font-size: 1rem;
 }
-.footer-content-support .img-support{
+
+.footer-content-support .img-support {
     width: 30px;
     height: 30px;
 }
-.footer-content-support a{
+
+.footer-content-support a {
     text-decoration: none;
     color: #252525;
     font-size: 1rem;
     padding-left: 5px;
     box-sizing: border-box;
 }
-.footer-content-support a:hover{
+
+.footer-content-support a:hover {
     color: #1dcbf7;
 }
-.footer-content-support h4{
+
+.footer-content-support h4 {
     color: #f7941d;
     margin-top: 30px;
     font-size: 1.75rem;
 }
-.footer-sale h3{
+
+.footer-sale h3 {
     color: #f7941d;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-size: 1rem;
 }
+
 .footer-sale .list-sale {
-    padding: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
 }
-.footer-sale .list-sale a{
+
+.footer-sale .list-sale a {
     text-decoration: none;
     color: black;
     font-size: 0.75;
     font-family: 'Product-san-sserif';
 }
-.footer-sale .list-sale a:hover{
-    color: #f7941d;
 
+.footer-sale .list-sale a:hover {
+    color: #f7941d;
+    transition: 0.3s;
+    text-decoration: solid darkblue;
 }
-.footer-copyright{
+
+.footer-copyright {
     background-color: #333;
     margin: unset;
 }
-.footer-copyright h3{
+
+.footer-copyright h3 {
     color: white;
     text-align: center;
     padding: 20px;
     font-size: 0.75rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-.footer-copyright i{
+
+.footer-copyright i {
     color: #f7941d;
     font-size: 0.75rem;
     font-family: Arial, Helvetica, sans-serif;
 }
-

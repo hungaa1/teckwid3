@@ -3,13 +3,14 @@ const querys = document.querySelectorAll.bind(document);
 
 const http = new XMLHttpRequest();
 const product = query(".product");
+console.log(product);
 const productDetail = query(".productDetail");
 const background = query(".background");
 const options = querys(".sub-menu_item");
 const options1 = querys(".type");
 const input = query("input[name=query]");
 const resultsBar = query(".results-bar");
-const List = query(".listProductName h3 span");
+const List = query(".listProductName  span");
 const closeSearch = query(".closeSearch");
 let check = false;
 let dataN;
@@ -54,7 +55,6 @@ Array.from(options).map((elm, index) => {
     } else if (index == 4) {
       productType = "hat";
       List.innerText = productType;
-
       handleData(dataN);
     }
   };
@@ -62,29 +62,23 @@ Array.from(options).map((elm, index) => {
 Array.from(options1).map((elm, index) => {
   elm.onclick = (e) => {
     console.log("ok");
-    product.innerHTML = "";
     if (index == 0) {
       productType = "shirt";
-      List.innerText = productType;
       handleData(dataN);
     } else if (index == 1) {
       productType = "pant";
-      List.innerText = productType;
 
       handleData(dataN);
     } else if (index == 2) {
       productType = "skirt";
-      List.innerText = productType;
 
       handleData(dataN);
     } else if (index == 3) {
       productType = "shoes";
-      List.innerText = productType;
 
       handleData(dataN);
     } else if (index == 4) {
       productType = "hat";
-      List.innerText = productType;
 
       handleData(dataN);
     }
@@ -97,7 +91,7 @@ function handleData(data) {
       number = index;
       let div = `<div class="allResults">
                     <div class='results' data-index='${ valueProduct.id }'>
-                    <span class="saleProduct">${ valueProduct.sale }</span>
+                    <span class="saleProductHome">${ valueProduct.sale }</span>
                      <span class='hoverTitle'>${ valueProduct.name }</span>
                       <div class='productAvatar'>
                         <img data-index='${ valueProduct.id }' src='${ valueProduct.image }' alt='${ valueProduct.name }'/>
@@ -128,7 +122,9 @@ function handleData(data) {
 
                       </div>
                     </div></div>`;
-      product.insertAdjacentHTML("beforeend", div);
+      if (product) {
+        product.insertAdjacentHTML("beforeend", div);
+      }
     }
     // handleType(valueProduct);
   });
@@ -156,27 +152,49 @@ function handleData(data) {
 
   // }
 }
-background.onclick = function () {
-  background.classList.remove("show");
-  productDetail.innerHTML = "";
-  productDetail.classList.remove("showDetails");
-};
+if (background) {
+  background.onclick = function () {
+    background.classList.remove("show");
+    productDetail.innerHTML = "";
+    productDetail.classList.remove("showDetails");
+  };
+}
+console.log(product);
 
-product.onclick = function (e) {
-  e.stopPropagation();
-  if (e.target.dataset.index) {
-    background.classList.toggle("show", !check);
-    productDetail.classList.add("showDetails");
+if (product) {
+  product.onclick = function (e) {
+    console.log(product);
+    e.stopPropagation();
+    console.log(e.target.dataset.index);
+    if (e.target.dataset.index) {
+      background.classList.toggle("show", !check);
+      productDetail.classList.add("showDetails");
 
-    dataN.map((prop) => {
-      if (e.target.dataset.index == prop.id) {
+      dataN.map((prop) => {
+        if (e.target.dataset.index == prop.id) {
+          let star
+          console.log(prop.quality);
+          if (prop.quality == 1.0) {
+            star = '<i class="fa-solid fa-star"></i>'
+          } else if (prop.quality == 2.0) {
+            star = '<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>'
 
-        let div = `<div class='image'><img id="src"src=
+          } else if (prop.quality == 3.0) {
+            star = '<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>'
+
+          } else if (prop.quality == 4.0) {
+            star = '<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>'
+          } else if (prop.quality == 5.0) {
+            star = '<i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>'
+
+          }
+          console.log(star);
+          let div = `<div class='image'><img id="src"src=
                     ${ prop.image }
                     alt='${ prop.name }'
                     /></div>
                     <div class='order'>
-                      <div class='star'>${ prop.quality }.0<span></span></div>
+                      <div class='star'>${ prop.quality }.0<span>${ star }</span></div>
                       <p class='productName' >
                         ${ prop.name }
                       </p>
@@ -184,34 +202,99 @@ product.onclick = function (e) {
                      <sup>$</sup>${ prop.price }</p>
                   </div> 
                   <div class='saleProduct'>${ prop.sale }</div>
+                  <div class='sizeProduct'></div>
+                  <div class="requierBuy">
+                      <button>Buy</button>
+                  </div>
                 </div>
-                <div class='resultColor'></div>`;
-        productDetail.insertAdjacentHTML("beforeend", div);
-        const productColor = query(
-          `div[class="resultColor"][data-index='${ prop.id }']`
-        );
-        if (prop.hasOwnProperty("shirt") && prop.id == prop.shirt.id) {
-          const color = query(".resultColor");
-          prop.shirt.color.map((valueColor) => {
-            const div3 = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
-            color.insertAdjacentHTML("beforeend", div3);
-          });
+               <div class='allColor'> <div class='resultColor'></div></div>`;
+          productDetail.insertAdjacentHTML("beforeend", div);
+          const productColor = query(
+            `div[class="resultColor"][data-index='${ prop.id }']`
+          );
+          if (prop.hasOwnProperty("shirt") && prop.id == prop.shirt.id) {
+            const sizeProduct = query(".sizeProduct");
+            console.log(sizeProduct);
+            const color = query(".resultColor");
+            prop.shirt.color.map((valueColor) => {
+              const div3 = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
+              color.insertAdjacentHTML("beforeend", div3);
+            });
+            prop.shirt.size.map(valueSize => {
+              const div4 = `<div class='sizePr'>${ valueSize.size }</div>`
+              sizeProduct.insertAdjacentHTML("beforeend", div4);
+
+            })
+
+          } else if (prop.hasOwnProperty("pant") && prop.id == prop.pant.id) {
+            const sizeProduct = query(".sizeProduct");
+            const color = query(".resultColor");
+            prop.pant.color.map((valueColor) => {
+              const divColor = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
+              color.insertAdjacentHTML("beforeend", divColor);
+            });
+            prop.pant.size.map(valueSize => {
+              const divSize = `<div class='sizePr'>${ valueSize.size }</div>`
+              sizeProduct.insertAdjacentHTML("beforeend", divSize);
+
+            })
+          } else if (prop.hasOwnProperty("skirt") && prop.id == prop.skirt.id) {
+            const sizeProduct = query(".sizeProduct");
+            const color = query(".resultColor");
+            prop.skirt.color.map((valueColor) => {
+              const divColor = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
+              color.insertAdjacentHTML("beforeend", divColor);
+            });
+            prop.skirt.size.map(valueSize => {
+              const divSize = `<div class='sizePr'>${ valueSize.size }</div>`
+              console.log(divSize);
+              sizeProduct.insertAdjacentHTML("beforeend", divSize);
+
+            })
+          } else if (prop.hasOwnProperty("shoes") && prop.id == prop.shoes.id) {
+            const sizeProduct = query(".sizeProduct");
+            const color = query(".resultColor");
+            prop.shoes.color.map((valueColor) => {
+              const divColor = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
+              color.insertAdjacentHTML("beforeend", divColor);
+            });
+            prop.shoes.size.map(valueSize => {
+              const divSize = `<div class='sizePr'>${ valueSize.size }</div>`
+              sizeProduct.insertAdjacentHTML("beforeend", divSize);
+
+            })
+          } else if (prop.hasOwnProperty("hat") && prop.id == prop.hat.id) {
+            const sizeProduct = querys(".sizeProduct");
+            const color = query(".resultColor");
+            prop.hat.color.map((valueColor) => {
+              const divColor = `<div class="colorProduct" data-index="${ valueColor.id }"><img src="${ valueColor.image }" alt="${ valueColor.color }"/></div>`;
+              color.insertAdjacentHTML("beforeend", divColor);
+            });
+            prop.hat.size.map(valueSize => {
+              const divSize = `<div class='sizePr'>${ valueSize.size }</div>`
+              sizeProduct.insertAdjacentHTML("beforeend", divSize);
+
+            })
+          }
+
+
         }
-      }
-    });
-    const colorProduct = querys(".colorProduct");
-    const image = query("#src");
-    console.log(colorProduct);
-    Array.from(colorProduct).map((elm) => {
-      elm.onmouseover = function (e) {
-        if (e.target.hasAttribute("src")) {
-          const src = e.target.getAttribute("src");
-          image.setAttribute("src", src);
-        }
-      };
-    });
-  }
-};
+      });
+
+      const colorProduct = querys(".colorProduct");
+      const image = query("#src");
+      console.log(colorProduct);
+      Array.from(colorProduct).map((elm) => {
+        elm.onmouseover = function (e) {
+          if (e.target.hasAttribute("src")) {
+            const src = e.target.getAttribute("src");
+            image.setAttribute("src", src);
+          }
+        };
+      });
+    }
+  };
+}
 
 input.oninput = function (e) {
   dataN.map((elm) => {

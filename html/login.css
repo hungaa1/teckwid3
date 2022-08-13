@@ -1,0 +1,74 @@
+.background-login {
+    background-image: url(../public/image/2hand.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 60px 0 80px 0;
+}
+
+.background__info__title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff;
+    margin: 0;
+
+}
+
+.background__homepage {
+    text-align: center;
+}
+
+.background__homepage>a {
+    text-decoration: none;
+    background: transparent;
+}
+
+.background__homepage>a>span {
+    color: #fff;
+}
+
+.background__homepage>a>span:hover {
+    color: #ff8417;
+}
+
+.background__homepage>.fa {
+    color: #fff;
+    padding: 0px 5px;
+}
+
+.background__homepage>.intro__title {
+    color: #ff8417;
+}
+
+.login-container .card {
+    background: #6a11cb;
+
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+#login .h2 {
+    color: #f7941d;
+}
+
+#login .error {
+    color: red;
+    font-size: 1rem;
+}
+
+.mb-0 {
+    margin-left: 20px;
+}
+
+#login .register {
+    margin-bottom: 20px;
+}
+
+#login .form-outline>input {
+    height: 40px;
+    color: #252525;
+}
